@@ -1,0 +1,31 @@
+<h1>Listing compras</h1>
+
+<table>
+  <tr>
+    <th>Numero cartao</th>
+    <th>Codigo seguranca</th>
+    <th>Nome titular</th>
+    <th>Data validade</th>
+    <th>Bandeira</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @compras.each do |compra| %>
+  <tr>
+    <td><%= compra.numero_cartao %></td>
+    <td><%= compra.codigo_seguranca %></td>
+    <td><%= compra.nome_titular %></td>
+    <td><%= compra.data_validade %></td>
+    <td><%= compra.bandeira_id %></td>
+    <td><%= link_to 'Show', compra %></td>
+    <td><%= link_to 'Edit', edit_compra_path(compra) %></td>
+    <td><%= link_to 'Destroy', compra, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Compra', new_compra_path %>

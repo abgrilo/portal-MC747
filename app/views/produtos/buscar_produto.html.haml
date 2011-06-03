@@ -1,0 +1,5 @@
+#buscar-produto
+  - form_for @produto, :url => efetua_busca_produtos_path do |f|
+    = f.label  :nome
+    = f.text_field :nome
+    = f.submit

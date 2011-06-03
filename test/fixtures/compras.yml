@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  numero_cartao: MyString
+  codigo_seguranca: MyString
+  nome_titular: MyString
+  data_validade: MyString
+  bandeira_id: 
+
+two:
+  numero_cartao: MyString
+  codigo_seguranca: MyString
+  nome_titular: MyString
+  data_validade: MyString
+  bandeira_id: 

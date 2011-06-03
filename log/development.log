@@ -1,0 +1,3464 @@
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:29:41 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (7.4ms)
+Completed   in 70ms
+
+ActionView::Template::Error (undefined local variable or method `login_welcome_path' for #<#<Class:0xb67e4558>:0xb687e130>):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__614725928_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.2ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:30:00 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (7.7ms)
+Completed   in 20ms
+
+ActionView::Template::Error (undefined local variable or method `login_welcome_path' for #<#<Class:0xb6a90b6c>:0xb6a8f5f0>):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615222348_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.5ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:30:02 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (7.4ms)
+Completed   in 20ms
+
+ActionView::Template::Error (undefined local variable or method `login_welcome_path' for #<#<Class:0xb6b482d0>:0xb6b474d4>):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__614845488_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.1ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:34:06 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.8ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615426628_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:34:23 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (59.5ms)
+Completed   in 71ms
+
+ActionView::Template::Error (undefined local variable or method `login_welcomes_path' for #<#<Class:0xb6921d44>:0xb691fe04>):
+    1: = form_tag(login_welcomes_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615975168_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.8ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:34:54 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.1ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615282868_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:34:54 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615740138_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (59.3ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:35:10 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.0ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__614915118_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:35:11 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615313188_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:35:11 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.0ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615789238_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:35:11 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.3ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616224588_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:35:11 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (3.1ms)
+Completed   in 12ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__614973338_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:37:08 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (55.4ms)
+Completed   in 67ms
+
+ActionView::Template::Error (undefined local variable or method `login_welcomes_path' for #<#<Class:0xb68feee8>:0xb68fe0ec>):
+    1: = form_tag(login_welcomes_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616044068_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.9ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:38:22 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__614801728_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:38:22 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.7ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615249538_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.3ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:38:52 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.0ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__614436968_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:38:52 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 14ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__614837898_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:38:52 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.8ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615305928_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:38:53 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615738588_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (53.2ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (63.9ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri May 20 19:38:53 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.1ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__614445728_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/welcome/login" for 127.0.0.1 at Fri May 20 19:39:08 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcome/login"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/welcomes/login" for 127.0.0.1 at Fri May 20 19:39:12 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcomes/login"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at Fri May 20 19:40:30 -0300 2011
+
+ActionController::RoutingError (No route matches "/login"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/logins" for 127.0.0.1 at Fri May 20 19:40:31 -0300 2011
+  Processing by LoginsController#index as HTML
+  [1m[36mLogin Load (0.5ms)[0m  [1mSELECT "logins".* FROM "logins"[0m
+SQLite3::SQLException: no such table: logins: SELECT "logins".* FROM "logins"
+Completed   in 55ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: logins: SELECT "logins".* FROM "logins"):
+  app/controllers/logins_controller.rb:5:in `index'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/login/new" for 127.0.0.1 at Fri May 20 19:40:34 -0300 2011
+
+ActionController::RoutingError (No route matches "/login/new"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/logins/new" for 127.0.0.1 at Fri May 20 19:40:36 -0300 2011
+  Processing by LoginsController#new as HTML
+Completed   in 5ms
+
+ActiveRecord::StatementInvalid (Could not find table 'logins'):
+  app/controllers/logins_controller.rb:27:in `new'
+  app/controllers/logins_controller.rb:27:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/logins/new" for 127.0.0.1 at Fri May 20 19:41:03 -0300 2011
+  Processing by LoginsController#new as HTML
+Rendered logins/_form.html.erb (1.0ms)
+Rendered logins/new.html.erb within layouts/application (3.0ms)
+Completed   in 62ms
+
+ActionView::Template::Error (undefined method `model_name' for Login:Class):
+    1: <%= form_for(@login) do |f| %>
+    2:   <% if @login.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@login.errors.count, "error") %> prohibited this login from being saved:</h2>
+  app/views/logins/_form.html.erb:1:in `_app_views_logins__form_html_erb___900476673__614256888_442416'
+  app/views/logins/new.html.erb:3:in `_app_views_logins_new_html_erb__317747205__614251818_0'
+  app/controllers/logins_controller.rb:29:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/logins/new" for 127.0.0.1 at Fri May 20 19:42:47 -0300 2011
+  Processing by LoginsController#new as HTML
+Rendered logins/_form.html.erb (1.2ms)
+Rendered logins/new.html.erb within layouts/application (3.4ms)
+Completed   in 14ms
+
+ActionView::Template::Error (undefined method `model_name' for Login:Class):
+    1: <%= form_for(@login) do |f| %>
+    2:   <% if @login.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@login.errors.count, "error") %> prohibited this login from being saved:</h2>
+  app/views/logins/_form.html.erb:1:in `_app_views_logins__form_html_erb___900476673__614693158_442416'
+  app/views/logins/new.html.erb:3:in `_app_views_logins_new_html_erb__317747205__614688168_0'
+  app/controllers/logins_controller.rb:29:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/logins/new" for 127.0.0.1 at Fri May 20 19:43:13 -0300 2011
+  Processing by LoginsController#new as HTML
+Rendered logins/_form.html.erb (1.0ms)
+Rendered logins/new.html.erb within layouts/application (2.9ms)
+Completed   in 12ms
+
+ActionView::Template::Error (undefined method `singular' for "Login":String):
+    1: <%= form_for(@login) do |f| %>
+    2:   <% if @login.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@login.errors.count, "error") %> prohibited this login from being saved:</h2>
+  app/views/logins/_form.html.erb:1:in `_app_views_logins__form_html_erb___900476673__615180338_442416'
+  app/views/logins/new.html.erb:3:in `_app_views_logins_new_html_erb__317747205__615171458_0'
+  app/controllers/logins_controller.rb:29:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/logins/new" for 127.0.0.1 at Fri May 20 19:43:30 -0300 2011
+  Processing by LoginsController#new as HTML
+Rendered logins/_form.html.erb (1.1ms)
+Rendered logins/new.html.erb within layouts/application (3.0ms)
+Completed   in 68ms
+
+ActionView::Template::Error (undefined method `singular' for "Login":String):
+    1: <%= form_for(@login) do |f| %>
+    2:   <% if @login.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@login.errors.count, "error") %> prohibited this login from being saved:</h2>
+  app/views/logins/_form.html.erb:1:in `_app_views_logins__form_html_erb___900476673__614252248_442416'
+  app/views/logins/new.html.erb:3:in `_app_views_logins_new_html_erb__317747205__614247158_0'
+  app/controllers/logins_controller.rb:29:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+
+
+Started GET "/logins/new" for 127.0.0.1 at Fri May 20 19:43:36 -0300 2011
+  Processing by LoginsController#new as HTML
+Rendered logins/_form.html.erb (1.0ms)
+Rendered logins/new.html.erb within layouts/application (2.8ms)
+Completed   in 12ms
+
+ActionView::Template::Error (undefined method `singular' for "Login":String):
+    1: <%= form_for(@login) do |f| %>
+    2:   <% if @login.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@login.errors.count, "error") %> prohibited this login from being saved:</h2>
+  app/views/logins/_form.html.erb:1:in `_app_views_logins__form_html_erb___900476673__614680958_442416'
+  app/views/logins/new.html.erb:3:in `_app_views_logins_new_html_erb__317747205__614675978_0'
+  app/controllers/logins_controller.rb:29:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/welcomes/login" for 127.0.0.1 at Fri May 20 19:44:55 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcomes/login"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/welcome/login" for 127.0.0.1 at Fri May 20 19:44:58 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcome/login"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/welcome/login" for 127.0.0.1 at Fri May 20 19:45:11 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcome/login"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 19:45:14 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615472788_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 19:47:51 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__614290538_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:01:27 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__614682298_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:01:50 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+LoadError (no such file to load -- openssl):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:08:01 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (64.6ms)
+Completed 200 OK in 70ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+LoadError (no such file to load -- openssl):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:08:02 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+LoadError (no such file to load -- openssl):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:08:02 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+LoadError (no such file to load -- openssl):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/logins/new" for 127.0.0.1 at Fri May 20 20:16:16 -0300 2011
+  Processing by LoginsController#new as HTML
+Completed   in 10ms
+
+ActionView::MissingTemplate (Missing template logins/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:builder, :rjs, :erb, :rhtml, :rxml, :haml]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  app/controllers/logins_controller.rb:29:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/welcome/login" for 127.0.0.1 at Fri May 20 20:16:20 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcome/login"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:16:23 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:16:50 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.8ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616134228_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:17:10 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.1ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615325438_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:17:11 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615733548_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:17:11 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.7ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616223938_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:21:17 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616927988_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.9ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.6ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:21:17 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615624058_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:25:36 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (8.4ms)
+Completed   in 22ms
+
+ActionView::Template::Error (undefined local variable or method `welcome_path' for #<#<Class:0xb68b0e8c>:0xb68b0054>):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616203898_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (69.1ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:25:37 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (9.8ms)
+Completed   in 22ms
+
+ActionView::Template::Error (undefined local variable or method `welcome_path' for #<#<Class:0xb69f6cd8>:0xb69f5ec8>):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615536438_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.3ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:25:47 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (8.8ms)
+Completed   in 71ms
+
+ActionView::Template::Error (undefined local variable or method `welcomes_path' for #<#<Class:0xb68d8eb4>:0xb68d8054>):
+    1: = form_tag(welcomes_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616121998_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.6ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:26:02 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (8.5ms)
+Completed   in 22ms
+
+ActionView::Template::Error (undefined local variable or method `welcome_path' for #<#<Class:0xb694468c>:0xb694387c>):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615901788_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (65.8ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:26:02 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (9.1ms)
+Completed   in 23ms
+
+ActionView::Template::Error (undefined local variable or method `welcome_path' for #<#<Class:0xb69fb33c>:0xb69fa504>):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615527448_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.1ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:26:03 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (8.3ms)
+Completed   in 67ms
+
+ActionView::Template::Error (undefined local variable or method `welcome_path' for #<#<Class:0xb68d8220>:0xb68d73e8>):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616123568_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.3ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:29:01 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.7ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"show"}):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616029518_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.1ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.1ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:29:02 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.6ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"show"}):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616499468_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (60.5ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:29:02 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.1ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"show"}):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615502918_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:29:22 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.7ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"show"}):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616158938_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:29:22 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.7ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"show"}):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616644808_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (60.8ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:29:22 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.3ms)
+Completed   in 9ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"show"}):
+    1: = form_tag(welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615435658_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:29:34 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.8ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615870608_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:29:35 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616368898_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:29:35 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616840168_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:37:19 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615859688_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:37:20 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.7ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616373948_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:37:20 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.2ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616839548_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (49.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (62.2ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:37:20 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (2.1ms)
+Completed   in 8ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__615514578_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:38:51 -0300 2011
+
+NameError (undefined local variable or method `login_welcome' for #<ActionDispatch::Routing::Mapper:0xb6964234>):
+  config/routes.rb:8
+  config/routes.rb:1
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:38:52 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.8ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616343938_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.3ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:38:55 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (1.9ms)
+Completed   in 7ms
+
+ActionView::Template::Error (No route matches {:controller=>"welcome", :action=>"login"}):
+    1: = form_tag(login_welcome_path, :method => "post") do
+    2:   = label_tag "Login"
+    3:   = label_tag "Senha"
+  app/views/welcome/index.html.haml:1:in `_app_views_welcome_index_html_haml___1052387339__616799418_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.9ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:39:05 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:39:06 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 20:39:46 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/login" for 127.0.0.1 at Fri May 20 20:39:52 -0300 2011
+  Processing by WelcomeController#login as HTML
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template welcome/login with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:builder, :rjs, :erb, :rhtml, :rxml, :haml]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at Fri May 20 20:39:54 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at Fri May 20 20:41:36 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (62.8ms)
+Completed 200 OK in 68ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at Fri May 20 20:42:07 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri May 20 20:42:09 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"d1WVV9zqtlRj7D4JTAZJaRZQiDKD5k8pzJy1hZ5WvCA=", "utf8"=>"✓", "login"=>"", "senha"=>""}
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template welcome/login with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:builder, :rjs, :erb, :rhtml, :rxml, :haml]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.6/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/welcome/login" for 127.0.0.1 at Fri May 20 21:05:33 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:33 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:33 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:33 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:33 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:34 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:35 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:35 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/welcome/" for 127.0.0.1 at Fri May 20 21:05:41 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (6.3ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"d1WVV9zqtlRj7D4JTAZJaRZQiDKD5k8pzJy1hZ5WvCA=", "utf8"=>"✓", "login"=>"", "senha"=>""}
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/login_welcome" for 127.0.0.1 at Fri May 20 21:05:49 -0300 2011
+  Processing by WelcomeController#login as HTML
+Redirected to http://localhost:3000/login_welcome
+Completed 302 Found in 1ms
+
+
+Started GET "/produtos" for 127.0.0.1 at Thu May 26 21:23:35 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.6ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+SQLite3::SQLException: no such table: produtos: SELECT "produtos".* FROM "produtos"
+Completed   in 116ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: produtos: SELECT "produtos".* FROM "produtos"):
+  app/controllers/produtos_controller.rb:5:in `index'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (142.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (93.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreateClientes (20110519193356)
+  [1m[36mSQL (0.5ms)[0m  [1mCREATE TABLE "clientes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar(255), "cpf" varchar(255), "rg" varchar(255), "cep" integer, "complemento" varchar(255), "data_nascimento" varchar(255), "ddd" integer, "telefone" integer, "ddd_celular" integer, "celular" integer, "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110519193356')
+Migrating to CreateLogins (20110520224006)
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE TABLE "logins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110520224006')
+Migrating to CreateProdutos (20110527002234)
+  [1m[36mSQL (0.6ms)[0m  [1mCREATE TABLE "produtos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar(255), "descricao" varchar(255), "quantidade" integer, "preco" float, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110527002234')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("clientes")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("logins")[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("produtos")
+
+
+Started GET "/produtos" for 127.0.0.1 at Thu May 26 21:24:11 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.5ms)[0m  SELECT "produtos".* FROM "produtos"
+Rendered produtos/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 25ms (Views: 19.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/produtos/buscar_produtos" for 127.0.0.1 at Thu May 26 21:31:58 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"buscar_produtos"}
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mProduto Load (0.1ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 0 LIMIT 1
+Completed   in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Produto with ID=buscar_produtos):
+  app/controllers/produtos_controller.rb:16:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+
+
+Started GET "/produtos/buscar_produtos" for 127.0.0.1 at Thu May 26 21:37:10 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"buscar_produtos"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 0 LIMIT 1[0m
+Completed   in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Produto with ID=buscar_produtos):
+  app/controllers/produtos_controller.rb:16:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started GET "/produto/buscar_produtos" for 127.0.0.1 at Thu May 26 21:37:18 -0300 2011
+
+ActionController::RoutingError (No route matches "/produto/buscar_produtos"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/produto/buscar_produtos" for 127.0.0.1 at Thu May 26 21:37:48 -0300 2011
+
+ActionController::RoutingError (No route matches "/produto/buscar_produtos"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/produto/buscar_produtos" for 127.0.0.1 at Thu May 26 21:37:48 -0300 2011
+
+ActionController::RoutingError (No route matches "/produto/buscar_produtos"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/produto/buscar_produtos" for 127.0.0.1 at Thu May 26 21:38:36 -0300 2011
+
+ActionController::RoutingError (No route matches "/produto/buscar_produtos"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/produtos/buscar_produtos" for 127.0.0.1 at Thu May 26 21:38:39 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"buscar_produtos"}
+  [1m[36mSQL (0.8ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 0 LIMIT 1
+Completed   in 28ms
+
+ActiveRecord::RecordNotFound (Couldn't find Produto with ID=buscar_produtos):
+  app/controllers/produtos_controller.rb:16:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/produtos/buscar_produtos" for 127.0.0.1 at Thu May 26 21:39:54 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"buscar_produtos"}
+  [1m[36mProduto Load (0.1ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 0 LIMIT 1[0m
+Completed   in 6ms
+
+ActiveRecord::RecordNotFound (Couldn't find Produto with ID=buscar_produtos):
+  app/controllers/produtos_controller.rb:16:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/produtos/" for 127.0.0.1 at Thu May 26 21:39:57 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.5ms)[0m  SELECT "produtos".* FROM "produtos"
+Rendered produtos/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 14ms (Views: 8.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/produtos/buscar_produtos" for 127.0.0.1 at Thu May 26 21:40:03 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"buscar_produtos"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 0 LIMIT 1[0m
+Completed   in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Produto with ID=buscar_produtos):
+  app/controllers/produtos_controller.rb:16:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/produtos/buscar_produtos" for 127.0.0.1 at Thu May 26 21:41:18 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"buscar_produtos"}
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mProduto Load (0.1ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 0 LIMIT 1
+Completed   in 26ms
+
+ActiveRecord::RecordNotFound (Couldn't find Produto with ID=buscar_produtos):
+  app/controllers/produtos_controller.rb:16:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:41:29 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.4ms)
+Completed   in 61ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: #buscar-produto
+    2:   = form_for @produto do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:2:in `_app_views_produtos_buscar_produto_html_haml__703171774__615316578_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:42:59 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.2ms)
+Completed   in 8ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: #buscar-produto
+    2:   - form_for @produto do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:2:in `_app_views_produtos_buscar_produto_html_haml__703171774__615906338_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:46:12 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.0ms)
+Completed   in 7ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: #buscar-produto
+    2:   - form_for @produto do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:2:in `_app_views_produtos_buscar_produto_html_haml__703171774__616436838_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:46:19 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.3ms)
+Completed   in 8ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: #buscar-produto
+    2:   - form_for @produto do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:2:in `_app_views_produtos_buscar_produto_html_haml__703171774__616951588_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (63.9ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:46:20 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.3ms)
+Completed   in 8ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: #buscar-produto
+    2:   - form_for @produto do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:2:in `_app_views_produtos_buscar_produto_html_haml__703171774__615626448_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:46:20 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.1ms)
+Completed   in 8ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: #buscar-produto
+    2:   - form_for @produto do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:2:in `_app_views_produtos_buscar_produto_html_haml__703171774__616222368_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:46:20 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.0ms)
+Completed   in 8ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: #buscar-produto
+    2:   - form_for @produto do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:2:in `_app_views_produtos_buscar_produto_html_haml__703171774__616752628_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (64.2ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:46:20 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.5ms)
+Completed   in 9ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: #buscar-produto
+    2:   - form_for @produto do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:2:in `_app_views_produtos_buscar_produto_html_haml__703171774__615535838_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:46:25 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_produtos_buscar_produto_html_haml__703171774__616141098_0 at /home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views/produtos/buscar_produto.html.haml:2)
+Rendered produtos/buscar_produto.html.haml within layouts/application (76.3ms)
+Completed 200 OK in 87ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:47:57 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+ERROR: compiling _app_views_produtos_buscar_produto_html_haml__703171774__615929968_0 RAISED compile error
+/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views/produtos/buscar_produto.html.haml:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...:url efetua_busca_produto_path do |f|;
+                              ^
+Function body:           def _app_views_produtos_buscar_produto_html_haml__703171774__615929968_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "produtos/buscar_produto";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :encoding=>nil, :format=>:html5, :ugly=>false, :preserve=>["textarea", "pre", "code"], :escape_html=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<div id='buscar-produto'>\n", 1, false);
+_hamlout.append_if_string=  form_for @produto, :url efetua_busca_produto_path do |f|;
+_hamlout.push_text("  #{_hamlout.format_script_false_false_false_true_false_true_false(( f.label  :nome
+));}\n  #{_hamlout.format_script_false_false_false_true_false_true_false(( f.text_field :nome
+));}\n  #{_hamlout.format_script_false_false_false_true_false_true_false(( f.submit
+));}\n", 0, false);end;_hamlout.push_text("</div>\n", -1, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views/produtos/buscar_produto.html.haml:9:in `compile'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/template.rb:134:in `render'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:54:in `instrument'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/template.rb:127:in `render'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:59:in `_render_template'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:26:in `render_without_haml'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/haml-3.0.25/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:93:in `render'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:14:in `default_render'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:6:in `send_action'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:150:in `process_action'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:436:in `_run__281299218__process_action__58926365__callbacks'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `send'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `send'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:119:in `process'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:41:in `process'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal.rb:138:in `dispatch'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_controller/metal.rb:178:in `action'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `recognize'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/sass-3.1.1/lib/sass/../sass/plugin/rack.rb:54:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.2/lib/rack/methodoverride.rb:24:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:32:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:12:in `cache'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/query_cache.rb:31:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activerecord-3.0.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.2/lib/rack/sendfile.rb:107:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/rack/logger.rb:13:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.2/lib/rack/runtime.rb:17:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/activesupport-3.0.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.2/lib/rack/lock.rb:11:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.2/lib/rack/lock.rb:11:in `synchronize'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.2/lib/rack/lock.rb:11:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/application.rb:168:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/application.rb:77:in `send'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/application.rb:77:in `method_missing'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.2/lib/rack/content_length.rb:13:in `call'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.2/lib/rack/handler/webrick.rb:52:in `service'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.2/lib/rack/handler/webrick.rb:13:in `run'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/rack-1.2.2/lib/rack/server.rb:213:in `start'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands/server.rb:65:in `start'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands.rb:30
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands.rb:27:in `tap'
+/home/alex/.rvm/gems/ruby-1.8.7-p334/gems/railties-3.0.7/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.0ms)
+Completed   in 13ms
+
+ActionView::Template::Error (compile error
+/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views/produtos/buscar_produto.html.haml:2: syntax error, unexpected tIDENTIFIER, expecting kEND
+...:url efetua_busca_produto_path do |f|;
+                              ^):
+    1: #buscar-produto
+    2:   - form_for @produto, :url efetua_busca_produto_path do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:9:in `compile'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.9ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.9ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:48:14 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.1ms)
+Completed   in 13ms
+
+ActionView::Template::Error (No route matches {:controller=>"produtos", :action=>"efetua_busca"}):
+    1: #buscar-produto
+    2:   - form_for @produto, :url => efetua_busca_produto_path do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:2:in `_app_views_produtos_buscar_produto_html_haml__703171774__616604758_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.1ms)
+
+
+Started GET "/produtos/1/efetua_busca" for 127.0.0.1 at Thu May 26 21:48:43 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"id"=>"1"}
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template produtos/efetua_busca with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :erb, :rhtml, :rxml], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:51:06 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+Rendered produtos/buscar_produto.html.haml within layouts/application (2.1ms)
+Completed   in 13ms
+
+ActionView::Template::Error (No route matches {:controller=>"produtos", :action=>"efetua_busca"}):
+    1: #buscar-produto
+    2:   - form_for @produto, :url => efetua_busca_produto_path do |f|
+    3:     = f.label  :nome
+    4:     = f.text_field :nome
+    5:     = f.submit
+  app/views/produtos/buscar_produto.html.haml:2:in `_app_views_produtos_buscar_produto_html_haml__703171774__616013228_0'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.6ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:51:27 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_produtos_buscar_produto_html_haml__703171774__616987578_0 at /home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views/produtos/buscar_produto.html.haml:2)
+Rendered produtos/buscar_produto.html.haml within layouts/application (71.3ms)
+Completed 200 OK in 81ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:54:38 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_produtos_buscar_produto_html_haml__703171774__615769048_0 at /home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views/produtos/buscar_produto.html.haml:2)
+Rendered produtos/buscar_produto.html.haml within layouts/application (14.3ms)
+Completed 200 OK in 25ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 21:54:41 -0300 2011
+
+ActionController::RoutingError (No route matches "/produtos/efetua_busca"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 21:55:00 -0300 2011
+
+ActionController::RoutingError (No route matches "/produtos/efetua_busca"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:55:13 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_produtos_buscar_produto_html_haml__703171774__616169338_0 at /home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views/produtos/buscar_produto.html.haml:2)
+Rendered produtos/buscar_produto.html.haml within layouts/application (15.0ms)
+Completed 200 OK in 26ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 21:55:16 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"sdasdsad"}}
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+Completed   in 5ms
+
+ActionView::MissingTemplate (Missing template produtos/efetua_busca with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :erb, :rhtml, :rxml], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 21:55:36 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"sdasdsad"}}
+Completed   in 2ms
+
+NoMethodError (undefined method `debug' for #<ProdutosController:0xb69cb1c8>):
+  app/controllers/produtos_controller.rb:89:in `efetua_busca'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 21:55:49 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"sdasdsad"}}
+Completed   in 5ms
+
+ActionView::MissingTemplate (Missing template produtos/efetua_busca with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :erb, :rhtml, :rxml], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 21:56:07 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"sdasdsad"}}
+Completed   in 5ms
+
+ActionView::MissingTemplate (Missing template produtos/efetua_busca with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :erb, :rhtml, :rxml], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+
+
+Started GET "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 21:57:41 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"efetua_busca"}
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mProduto Load (0.1ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 0 LIMIT 1
+Completed   in 28ms
+
+ActiveRecord::RecordNotFound (Couldn't find Produto with ID=efetua_busca):
+  app/controllers/produtos_controller.rb:16:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/produtos/" for 127.0.0.1 at Thu May 26 21:57:49 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+Rendered produtos/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 16ms (Views: 9.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 21:57:54 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_produtos_buscar_produto_html_haml__703171774__616446788_0 at /home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views/produtos/buscar_produto.html.haml:2)
+Rendered produtos/buscar_produto.html.haml within layouts/application (19.0ms)
+Completed 200 OK in 30ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 21:57:56 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"asdasdasdas"}}
+Completed   in 5ms
+
+ActionView::MissingTemplate (Missing template produtos/efetua_busca with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :rhtml, :rxml, :erb], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 21:58:10 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"asdasdasdas"}}
+Completed   in 276816ms
+
+ActionView::MissingTemplate (Missing template produtos/efetua_busca with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :rhtml, :rxml, :erb], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 22:02:50 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"asdasdasdas"}}
+  [1m[35mProduto Load (0.4ms)[0m  SELECT "produtos".* FROM "produtos" WHERE (nome LIKE '%asdasdasdas%')
+Rendered produtos/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 16ms (Views: 9.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 22:03:14 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"asdasdasdas"}}
+  [1m[36mProduto Load (0.5ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE (nome LIKE '%asdasdasdas%')[0m
+Rendered produtos/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 17ms (Views: 9.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/produtos/new" for 127.0.0.1 at Thu May 26 22:03:19 -0300 2011
+  Processing by ProdutosController#new as HTML
+Rendered produtos/_form.html.erb (18.0ms)
+Rendered produtos/new.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 36ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/produtos" for 127.0.0.1 at Thu May 26 22:03:27 -0300 2011
+  Processing by ProdutosController#create as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"geladeira", "preco"=>"", "quantidade"=>"", "descricao"=>""}}
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "produtos" ("quantidade", "updated_at", "descricao", "nome", "created_at", "preco") VALUES (NULL, '2011-05-27 01:03:27.721490', '', 'geladeira', '2011-05-27 01:03:27.721490', NULL)
+Redirected to http://localhost:3000/produtos/1
+Completed 302 Found in 199ms
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Thu May 26 22:03:27 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 24ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos" for 127.0.0.1 at Thu May 26 22:03:30 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.8ms)[0m  SELECT "produtos".* FROM "produtos"
+Rendered produtos/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 27ms (Views: 19.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/produtos/new" for 127.0.0.1 at Thu May 26 22:03:33 -0300 2011
+  Processing by ProdutosController#new as HTML
+Rendered produtos/_form.html.erb (78.3ms)
+Rendered produtos/new.html.erb within layouts/application (83.6ms)
+Completed 200 OK in 96ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/produtos" for 127.0.0.1 at Thu May 26 22:03:40 -0300 2011
+  Processing by ProdutosController#create as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"geladeira asdjadsad", "preco"=>"", "quantidade"=>"", "descricao"=>""}}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "produtos" ("nome", "preco", "descricao", "quantidade", "updated_at", "created_at") VALUES ('geladeira asdjadsad', NULL, '', NULL, '2011-05-27 01:03:40.939763', '2011-05-27 01:03:40.939763')[0m
+Redirected to http://localhost:3000/produtos/2
+Completed 302 Found in 122ms
+
+
+Started GET "/produtos/2" for 127.0.0.1 at Thu May 26 22:03:41 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 2 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (74.4ms)
+Completed 200 OK in 89ms (Views: 79.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos" for 127.0.0.1 at Thu May 26 22:03:43 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.5ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+Rendered produtos/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 26ms (Views: 19.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/produtos/new" for 127.0.0.1 at Thu May 26 22:03:46 -0300 2011
+  Processing by ProdutosController#new as HTML
+Rendered produtos/_form.html.erb (18.0ms)
+Rendered produtos/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 36ms (Views: 28.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/produtos" for 127.0.0.1 at Thu May 26 22:03:49 -0300 2011
+  Processing by ProdutosController#create as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"porta", "preco"=>"", "quantidade"=>"", "descricao"=>""}}
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "produtos" ("nome", "quantidade", "preco", "updated_at", "created_at", "descricao") VALUES ('porta', NULL, NULL, '2011-05-27 01:03:49.468401', '2011-05-27 01:03:49.468401', '')
+Redirected to http://localhost:3000/produtos/3
+Completed 302 Found in 201ms
+
+
+Started GET "/produtos/3" for 127.0.0.1 at Thu May 26 22:03:49 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 3 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 24ms (Views: 16.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/produtos" for 127.0.0.1 at Thu May 26 22:03:51 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.6ms)[0m  SELECT "produtos".* FROM "produtos"
+Rendered produtos/index.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 94ms (Views: 86.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/produtos/buscar_produto" for 127.0.0.1 at Thu May 26 22:03:56 -0300 2011
+  Processing by ProdutosController#buscar_produto as HTML
+DEPRECATION WARNING: - style block helpers are deprecated. Please use =. (called from _app_views_produtos_buscar_produto_html_haml__703171774__617104918_0 at /home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views/produtos/buscar_produto.html.haml:2)
+Rendered produtos/buscar_produto.html.haml within layouts/application (17.0ms)
+Completed 200 OK in 29ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 22:04:00 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"geladeira"}}
+  [1m[36mProduto Load (0.6ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE (nome LIKE '%geladeira%')[0m
+Rendered produtos/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 30ms (Views: 22.6ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/produtos/efetua_busca" for 127.0.0.1 at Thu May 26 22:04:05 -0300 2011
+  Processing by ProdutosController#efetua_busca as HTML
+  Parameters: {"commit"=>"Create Produto", "authenticity_token"=>"RhMFNJgbCetEfHYox7TLUV8Zm464hBrIOq+A2otTDd4=", "utf8"=>"✓", "produto"=>{"nome"=>"porta"}}
+  [1m[35mProduto Load (0.5ms)[0m  SELECT "produtos".* FROM "produtos" WHERE (nome LIKE '%porta%')
+Rendered produtos/index.html.erb within layouts/application (75.2ms)
+Completed 200 OK in 87ms (Views: 80.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/welcome/login" for 127.0.0.1 at Thu May 26 22:04:43 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcome/login"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/logins/new" for 127.0.0.1 at Thu May 26 22:04:47 -0300 2011
+
+ActionController::RoutingError (No route matches "/logins/new"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Thu May 26 22:04:51 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcome"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Thu May 26 22:05:33 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcome"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/welcomes" for 127.0.0.1 at Thu May 26 22:05:36 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcomes"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/welcomes" for 127.0.0.1 at Thu May 26 22:05:38 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcomes"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/welcomes" for 127.0.0.1 at Thu May 26 22:06:06 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcomes"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Thu May 26 22:06:07 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcome"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/welcomes" for 127.0.0.1 at Thu May 26 22:06:09 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcomes"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Thu May 26 22:06:55 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at Wed Jun 01 16:35:18 -0300 2011
+
+ActionController::RoutingError (No route matches "/login"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/logins" for 127.0.0.1 at Wed Jun 01 16:35:23 -0300 2011
+
+ActionController::RoutingError (No route matches "/logins"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/welcome/login" for 127.0.0.1 at Wed Jun 01 16:55:59 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcome/login"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/welcome/" for 127.0.0.1 at Wed Jun 01 16:56:02 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Wed Jun 01 16:58:07 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"TJ5qq3NIim3zTrbMRfheaL+xCFCPgY7KLN9Aigp81oM=", "utf8"=>"✓", "login"=>"teste", "senha"=>"teste"}
+Completed   in 5ms
+
+ActionView::MissingTemplate (Missing template welcome/login with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :rhtml, :rxml, :erb], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Wed Jun 01 17:00:07 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"TJ5qq3NIim3zTrbMRfheaL+xCFCPgY7KLN9Aigp81oM=", "utf8"=>"✓", "login"=>"teste", "senha"=>"123"}
+Redirected to http://localhost:3000/produtos
+Completed 302 Found in 1ms
+
+
+Started GET "/produtos" for 127.0.0.1 at Wed Jun 01 17:00:07 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.8ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+Rendered produtos/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 58ms (Views: 22.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/produtos" for 127.0.0.1 at Wed Jun 01 17:02:48 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.6ms)[0m  SELECT "produtos".* FROM "produtos"
+Rendered produtos/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 23ms (Views: 16.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:02:50 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 25ms (Views: 17.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:03:36 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.3ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 23ms (Views: 15.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:04:21 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (63.8ms)
+Completed 200 OK in 76ms (Views: 68.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:04:23 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 22ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:04:24 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.3ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 109ms (Views: 16.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:04:24 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 22ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:05:06 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (17.9ms)
+Completed   in 41ms
+
+ActionView::Template::Error (undefined method `comprar_produto_path' for #<#<Class:0xb684fa88>:0xb684d968>):
+    21: </p>
+    22: 
+    23: 
+    24: <%= link_to 'Comprar', comprar_produto_path(@produto) %> |
+    25: <%= link_to 'Voltar', produtos_path %>
+  app/views/produtos/show.html.erb:24:in `_app_views_produtos_show_html_erb___506249093__616407998_0'
+  app/controllers/produtos_controller.rb:18:in `show'
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (56.5ms)
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (80.8ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:05:46 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 23ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:05:49 -0300 2011
+
+ActionController::RoutingError (No route matches "/produtos/1/comprar"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:06:22 -0300 2011
+
+ActionController::RoutingError (No route matches "/produtos/1/comprar"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:06:47 -0300 2011
+
+ActionController::RoutingError (No route matches "/produtos/1/comprar"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:06:51 -0300 2011
+
+ActionController::RoutingError (No route matches "/produtos/1/comprar"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:07:57 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 25ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:07:57 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 24ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:07:57 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 34ms (Views: 25.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:07:57 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 49ms (Views: 39.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:07:58 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (110.7ms)
+Completed 200 OK in 156ms (Views: 126.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:07:58 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 23ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Wed Jun 01 17:07:58 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.3ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 27ms (Views: 15.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:08:05 -0300 2011
+
+ActionController::RoutingError (No route matches "/produtos/1/comprar"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/produtos/1/edit" for 127.0.0.1 at Wed Jun 01 17:08:09 -0300 2011
+  Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/_form.html.erb (63.4ms)
+Rendered produtos/edit.html.erb within layouts/application (68.4ms)
+Completed 200 OK in 80ms (Views: 73.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:08:27 -0300 2011
+
+ActionController::RoutingError (No route matches "/produtos/1/comprar"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:08:30 -0300 2011
+
+ActionController::RoutingError (No route matches "/produtos/1/comprar"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:08:30 -0300 2011
+
+ActionController::RoutingError (No route matches "/produtos/1/comprar"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:09:14 -0300 2011
+
+AbstractController::ActionNotFound (The action '1' could not be found for ProdutosController):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:09:27 -0300 2011
+  Processing by ProdutosController#comprar as HTML
+  Parameters: {"id"=>"1"}
+Redirected to 
+Completed   in 3ms
+
+NoMethodError (undefined method `index_url' for #<ProdutosController:0xb645d4c0>):
+  app/controllers/produtos_controller.rb:100:in `comprar'
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:09:28 -0300 2011
+  Processing by ProdutosController#comprar as HTML
+  Parameters: {"id"=>"1"}
+Redirected to 
+Completed   in 3ms
+
+NoMethodError (undefined method `index_url' for #<ProdutosController:0xb638ea80>):
+  app/controllers/produtos_controller.rb:100:in `comprar'
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:09:55 -0300 2011
+  Processing by ProdutosController#comprar as HTML
+  Parameters: {"id"=>"1"}
+Redirected to 
+Completed   in 3ms
+
+NoMethodError (undefined method `index_url' for #<ProdutosController:0xb675e50c>):
+  app/controllers/produtos_controller.rb:100:in `comprar'
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:09:55 -0300 2011
+  Processing by ProdutosController#comprar as HTML
+  Parameters: {"id"=>"1"}
+Redirected to 
+Completed   in 3ms
+
+NoMethodError (undefined method `index_url' for #<ProdutosController:0xb64fd664>):
+  app/controllers/produtos_controller.rb:100:in `comprar'
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:10:07 -0300 2011
+  Processing by ProdutosController#comprar as HTML
+  Parameters: {"id"=>"1"}
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template produtos/comprar with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :rhtml, :rxml, :erb], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/produtos/1/comprar" for 127.0.0.1 at Wed Jun 01 17:11:58 -0300 2011
+  Processing by ProdutosController#comprar as HTML
+  Parameters: {"id"=>"1"}
+Completed   in 5ms
+
+ActionView::MissingTemplate (Missing template produtos/comprar with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :rhtml, :rxml, :erb], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/gems/1.8/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri Jun 03 19:01:55 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (7.5ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 03 19:02:45 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "login"=>"teste", "senha"=>"teste"}
+Redirected to http://localhost:3000/produtos
+Completed 302 Found in 1ms
+
+
+Started GET "/produtos" for 127.0.0.1 at Fri Jun 03 19:02:45 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.9ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+Rendered produtos/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 182ms (Views: 36.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 03 19:12:20 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "login"=>"teste", "senha"=>"teste"}
+Redirected to http://localhost:3000/produtos
+Completed 302 Found in 1ms
+
+
+Started GET "/produtos" for 127.0.0.1 at Fri Jun 03 19:12:20 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.6ms)[0m  SELECT "produtos".* FROM "produtos"
+Rendered produtos/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 25ms (Views: 18.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/produtos/2" for 127.0.0.1 at Fri Jun 03 19:12:22 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 2 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 31ms (Views: 23.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/produtos" for 127.0.0.1 at Fri Jun 03 19:18:57 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.6ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+Rendered produtos/index.html.erb within layouts/application (61.7ms)
+Completed 200 OK in 73ms (Views: 67.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/produtos/2" for 127.0.0.1 at Fri Jun 03 19:18:59 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduto Load (0.3ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 2 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 22ms (Views: 14.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/produtos/2/comprar" for 127.0.0.1 at Fri Jun 03 19:19:03 -0300 2011
+  Processing by ProdutosController#comprar as HTML
+  Parameters: {"id"=>"2"}
+Completed   in 64ms
+
+ActionView::MissingTemplate (Missing template produtos/comprar with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :rhtml, :rxml, :erb], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/produtos/2/comprar" for 127.0.0.1 at Fri Jun 03 19:21:32 -0300 2011
+  Processing by ProdutosController#comprar as HTML
+  Parameters: {"id"=>"2"}
+Completed   in 5ms
+
+ActionView::MissingTemplate (Missing template produtos/comprar with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :rhtml, :rxml, :erb], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateClientes (20110519193356)
+Migrating to CreateLogins (20110520224006)
+Migrating to CreateProdutos (20110527002234)
+Migrating to CreateCompras (20110603222548)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateClientes (20110519193356)
+Migrating to CreateLogins (20110520224006)
+Migrating to CreateProdutos (20110527002234)
+Migrating to CreateCompras (20110603222548)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.6ms)[0m  [1mCREATE TABLE "compras" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "numero_cartao" varchar(255), "codigo_seguranca" varchar(255), "nome_titular" varchar(255), "data_validade" varchar(255), "bandeira_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110603222548')
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("clientes")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("compras")[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("logins")
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("produtos")[0m
+
+
+Started GET "/produtos/2/comprar" for 127.0.0.1 at Fri Jun 03 19:27:12 -0300 2011
+  Processing by ProdutosController#comprar as HTML
+  Parameters: {"id"=>"2"}
+Completed   in 5ms
+
+ActionView::MissingTemplate (Missing template produtos/comprar with {:formats=>[:html], :handlers=>[:haml, :builder, :rjs, :rhtml, :rxml, :erb], :locale=>[:en, :en]} in view paths "/home/alex/1s2011/sindo/MC747-Grupo1/portal/app/views"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/produtos/" for 127.0.0.1 at Fri Jun 03 19:27:16 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.6ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+Rendered produtos/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 26ms (Views: 18.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:27:18 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.3ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 22ms (Views: 14.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/compras/1" for 127.0.0.1 at Fri Jun 03 19:27:19 -0300 2011
+  Processing by ComprasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mCompra Load (0.2ms)[0m  SELECT "compras".* FROM "compras" WHERE "compras"."id" = 1 LIMIT 1
+Completed   in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Compra with ID=1):
+  app/controllers/compras_controller.rb:16:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (57.1ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (144.8ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:27:40 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 22ms (Views: 15.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/compras/1?product=1" for 127.0.0.1 at Fri Jun 03 19:27:42 -0300 2011
+  Processing by ComprasController#show as HTML
+  Parameters: {"id"=>"1", "product"=>"1"}
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mCompra Load (0.2ms)[0m  [1mSELECT "compras".* FROM "compras" WHERE "compras"."id" = 1 LIMIT 1[0m
+Completed   in 8ms
+
+ActiveRecord::RecordNotFound (Couldn't find Compra with ID=1):
+  app/controllers/compras_controller.rb:16:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:28:35 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (18.0ms)
+Completed   in 42ms
+
+ActionView::Template::Error (undefined method `efetuar_pagamento_compras_path' for #<#<Class:0xb69933cc>:0xb698f4ac>):
+    21: </p>
+    22: 
+    23: 
+    24: <%= link_to 'Comprar', efetuar_pagamento_compras_path(:product => @produto) %> |
+    25: <%= link_to 'Voltar', produtos_path %>
+  app/views/produtos/show.html.erb:24:in `_app_views_produtos_show_html_erb___506249093__615746818_0'
+  app/controllers/produtos_controller.rb:18:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.6ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:28:35 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (18.7ms)
+Completed   in 95ms
+
+ActionView::Template::Error (undefined method `efetuar_pagamento_compras_path' for #<#<Class:0xb69c7fa0>:0xb69c40e4>):
+    21: </p>
+    22: 
+    23: 
+    24: <%= link_to 'Comprar', efetuar_pagamento_compras_path(:product => @produto) %> |
+    25: <%= link_to 'Voltar', produtos_path %>
+  app/views/produtos/show.html.erb:24:in `_app_views_produtos_show_html_erb___506249093__615638828_0'
+  app/controllers/produtos_controller.rb:18:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.5ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:28:36 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (18.6ms)
+Completed   in 96ms
+
+ActionView::Template::Error (undefined method `efetuar_pagamento_compras_path' for #<#<Class:0xb69d8e90>:0xb6a19aa8>):
+    21: </p>
+    22: 
+    23: 
+    24: <%= link_to 'Comprar', efetuar_pagamento_compras_path(:product => @produto) %> |
+    25: <%= link_to 'Voltar', produtos_path %>
+  app/views/produtos/show.html.erb:24:in `_app_views_produtos_show_html_erb___506249093__615465148_0'
+  app/controllers/produtos_controller.rb:18:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.4ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:28:50 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (65.2ms)
+Completed 200 OK in 78ms (Views: 70.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/compras?product=1" for 127.0.0.1 at Fri Jun 03 19:28:52 -0300 2011
+  Processing by ComprasController#index as HTML
+  Parameters: {"product"=>"1"}
+  [1m[35mCompra Load (0.4ms)[0m  SELECT "compras".* FROM "compras"
+Rendered compras/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 14ms (Views: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:29:54 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (85.6ms)
+Completed   in 108ms
+
+ActionView::Template::Error (undefined method `new_compras_path' for #<#<Class:0xb664d3d4>:0xb66463b8>):
+    21: </p>
+    22: 
+    23: 
+    24: <%= link_to 'Comprar', new_compras_path(:produto => @produto) %> |
+    25: <%= link_to 'Voltar', produtos_path %>
+  app/views/produtos/show.html.erb:24:in `_app_views_produtos_show_html_erb___506249093__617469598_0'
+  app/controllers/produtos_controller.rb:18:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.5ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:29:55 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (69.9ms)
+Completed   in 92ms
+
+ActionView::Template::Error (undefined method `new_compras_path' for #<#<Class:0xb66dac70>:0xb66d9d0c>):
+    21: </p>
+    22: 
+    23: 
+    24: <%= link_to 'Comprar', new_compras_path(:produto => @produto) %> |
+    25: <%= link_to 'Voltar', produtos_path %>
+  app/views/produtos/show.html.erb:24:in `_app_views_produtos_show_html_erb___506249093__617167258_0'
+  app/controllers/produtos_controller.rb:18:in `show'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.2ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.9ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:30:01 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 79ms (Views: 72.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 03 19:30:03 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"1"}
+Rendered compras/_form.html.erb (78.2ms)
+Rendered compras/new.html.erb within layouts/application (82.6ms)
+Completed 200 OK in 95ms (Views: 88.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 03 19:33:06 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"1"}
+Rendered compras/_form.html.erb (22.9ms)
+Rendered compras/new.html.erb within layouts/application (35.8ms)
+Completed   in 109ms
+
+ActionView::Template::Error (undefined method `hidden' for #<ActionView::Helpers::FormBuilder:0xb6830778>):
+    14:   <div class="field">
+    15:     <%= f.label :preco_produto %><br />
+    16:     <%= @preco_produto %>
+    17:     <%= f.hidden :preco_produto, @preco_produto %>
+    18:   </div>
+    19:   <div class="field">
+    20:     <%= f.label :numero_cartao %><br />
+  app/views/compras/_form.html.erb:17:in `_app_views_compras__form_html_erb__288597694__616257098_443056'
+  app/views/compras/_form.html.erb:1:in `_app_views_compras__form_html_erb__288597694__616257098_443056'
+  app/views/compras/new.html.erb:4:in `_app_views_compras_new_html_erb___190594544__616240098_0'
+  app/controllers/compras_controller.rb:25:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.2ms)
+
+
+Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 03 19:33:16 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"1"}
+Rendered compras/_form.html.erb (67.9ms)
+Rendered compras/new.html.erb within layouts/application (69.9ms)
+Completed   in 80ms
+
+ActionView::Template::Error (undefined method `merge' for nil:NilClass):
+    14:   <div class="field">
+    15:     <%= f.label :preco_produto %><br />
+    16:     <%= @preco_produto %>
+    17:     <%= f.hidden_field :preco_produto, @preco_produto %>
+    18:   </div>
+    19:   <div class="field">
+    20:     <%= f.label :numero_cartao %><br />
+  app/views/compras/_form.html.erb:17:in `_app_views_compras__form_html_erb__288597694__617230378_443056'
+  app/views/compras/_form.html.erb:1:in `_app_views_compras__form_html_erb__288597694__617230378_443056'
+  app/views/compras/new.html.erb:4:in `_app_views_compras_new_html_erb___190594544__617212478_0'
+  app/controllers/compras_controller.rb:25:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.2ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.6ms)
+
+
+Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 03 19:34:02 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"1"}
+Rendered compras/_form.html.erb (15.5ms)
+Rendered compras/new.html.erb within layouts/application (17.1ms)
+Completed   in 28ms
+
+ActionView::Template::Error (undefined method `merge' for 1.0:Float):
+    14:   <div class="field">
+    15:     <%= f.label :preco_produto %><br />
+    16:     <%= @preco_produto %>
+    17:     <%= f.hidden_field :preco_produto, @preco_produto %>
+    18:   </div>
+    19:   <div class="field">
+    20:     <%= f.label :numero_cartao %><br />
+  app/views/compras/_form.html.erb:17:in `_app_views_compras__form_html_erb__288597694__617118598_443056'
+  app/views/compras/_form.html.erb:1:in `_app_views_compras__form_html_erb__288597694__617118598_443056'
+  app/views/compras/new.html.erb:4:in `_app_views_compras_new_html_erb___190594544__617105168_0'
+  app/controllers/compras_controller.rb:25:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (70.8ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (77.5ms)
+
+
+Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 03 19:34:17 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"1"}
+Rendered compras/_form.html.erb (18.2ms)
+Rendered compras/new.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 34ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:44:49 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 23ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 03 19:44:50 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"1"}
+Rendered compras/_form.html.erb (84.8ms)
+Rendered compras/new.html.erb within layouts/application (89.4ms)
+Completed 200 OK in 100ms (Views: 94.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 03 19:45:01 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"a", "nome_titular"=>"a", "data_validade"=>"a", "bandeira_id"=>"1", "numero_cartao"=>"a"}}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "compras" ("bandeira_id", "codigo_seguranca", "nome_titular", "data_validade", "created_at", "numero_cartao", "updated_at") VALUES (1, 'a', 'a', 'a', '2011-06-03 22:45:01.860455', 'a', '2011-06-03 22:45:01.860455')
+Redirected to http://localhost:3000/enderecos/new
+Completed 406 Not Acceptable in 160ms
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 03 19:45:40 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"a", "nome_titular"=>"a", "data_validade"=>"a", "bandeira_id"=>"1", "numero_cartao"=>"aass"}}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "compras" ("numero_cartao", "data_validade", "bandeira_id", "nome_titular", "codigo_seguranca", "updated_at", "created_at") VALUES ('aass', 'a', 1, 'a', 'a', '2011-06-03 22:45:40.881614', '2011-06-03 22:45:40.881614')
+Redirected to http://localhost:3000/enderecos/new
+Completed 302 Found in 218ms
+
+
+Started GET "/enderecos/new" for 127.0.0.1 at Fri Jun 03 19:45:41 -0300 2011
+  Processing by EnderecosController#new as HTML
+Completed   in 5ms
+
+ActiveRecord::StatementInvalid (Could not find table 'enderecos'):
+  app/controllers/enderecos_controller.rb:27:in `new'
+  app/controllers/enderecos_controller.rb:27:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateClientes (20110519193356)
+Migrating to CreateLogins (20110520224006)
+Migrating to CreateProdutos (20110527002234)
+Migrating to CreateCompras (20110603222548)
+Migrating to CreateEnderecos (20110603224201)
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.6ms)[0m  [1mCREATE TABLE "enderecos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "cep" varchar(255), "complemento" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110603224201')
+  [1m[36mSQL (0.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("clientes")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("compras")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("enderecos")
+  [1m[36mSQL (0.1ms)[0m  [1mPRAGMA index_list("logins")[0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("produtos")
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 03 19:46:37 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"a", "nome_titular"=>"a", "data_validade"=>"a", "bandeira_id"=>"1", "numero_cartao"=>"aassasa"}}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (2.2ms)[0m  INSERT INTO "compras" ("updated_at", "data_validade", "bandeira_id", "codigo_seguranca", "numero_cartao", "nome_titular", "created_at") VALUES ('2011-06-03 22:46:37.780624', 'a', 1, 'a', 'aassasa', 'a', '2011-06-03 22:46:37.780624')
+Redirected to http://localhost:3000/enderecos/new
+Completed 302 Found in 143ms
+
+
+Started GET "/enderecos/new" for 127.0.0.1 at Fri Jun 03 19:46:37 -0300 2011
+  Processing by EnderecosController#new as HTML
+Rendered enderecos/_form.html.erb (10.8ms)
+Rendered enderecos/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 27ms (Views: 20.8ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 03 19:49:01 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"a", "nome_titular"=>"a", "data_validade"=>"a", "bandeira_id"=>"1", "numero_cartao"=>"aassasa"}}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.8ms)[0m  INSERT INTO "compras" ("created_at", "bandeira_id", "nome_titular", "numero_cartao", "data_validade", "codigo_seguranca", "updated_at") VALUES ('2011-06-03 22:49:01.682174', 1, 'a', 'aassasa', 'a', 'a', '2011-06-03 22:49:01.682174')
+Redirected to http://localhost:3000/enderecos/new
+Completed 302 Found in 5919ms
+
+
+Started GET "/enderecos/new" for 127.0.0.1 at Fri Jun 03 19:49:07 -0300 2011
+  Processing by EnderecosController#new as HTML
+Rendered enderecos/_form.html.erb (11.6ms)
+Rendered enderecos/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 28ms (Views: 21.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri Jun 03 19:49:40 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (6.8ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 03 19:49:43 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "login"=>"alex", "senha"=>"alex"}
+Redirected to http://localhost:3000/produtos
+Completed 302 Found in 1ms
+
+
+Started GET "/produtos" for 127.0.0.1 at Fri Jun 03 19:49:43 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.8ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+Rendered produtos/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 86ms (Views: 77.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/produtos/3" for 127.0.0.1 at Fri Jun 03 19:49:46 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 3 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 24ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/compras/new?produto=3" for 127.0.0.1 at Fri Jun 03 19:49:47 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"3"}
+Rendered compras/_form.html.erb (20.9ms)
+Rendered compras/new.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 38ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 03 19:49:55 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"askjdakjd", "nome_titular"=>"klsahad", "data_validade"=>"sdasd", "bandeira_id"=>"1", "numero_cartao"=>"sadjasj"}}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (2.5ms)[0m  INSERT INTO "compras" ("updated_at", "bandeira_id", "nome_titular", "codigo_seguranca", "created_at", "data_validade", "numero_cartao") VALUES ('2011-06-03 22:49:55.566903', 1, 'klsahad', 'askjdakjd', '2011-06-03 22:49:55.566903', 'sdasd', 'sadjasj')
+Redirected to http://localhost:3000/enderecos/new
+Completed 302 Found in 137ms
+
+
+Started GET "/enderecos/new" for 127.0.0.1 at Fri Jun 03 19:49:55 -0300 2011
+  Processing by EnderecosController#new as HTML
+Rendered enderecos/_form.html.erb (11.8ms)
+Rendered enderecos/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 28ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enderecos" for 127.0.0.1 at Fri Jun 03 19:50:01 -0300 2011
+  Processing by EnderecosController#create as HTML
+  Parameters: {"endereco"=>{"complemento"=>"slmdaskld", "cep"=>"sajdlkjsad"}, "commit"=>"Create Endereco", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.9ms)[0m  INSERT INTO "enderecos" ("complemento", "updated_at", "created_at", "cep") VALUES ('slmdaskld', '2011-06-03 22:50:01.574702', '2011-06-03 22:50:01.574702', 'sajdlkjsad')
+Redirected to http://localhost:3000/enderecos/1
+Completed 302 Found in 132ms
+
+
+Started GET "/enderecos/1" for 127.0.0.1 at Fri Jun 03 19:50:01 -0300 2011
+  Processing by EnderecosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mEndereco Load (0.2ms)[0m  SELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 1 LIMIT 1
+Rendered enderecos/show.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 23ms (Views: 14.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri Jun 03 19:59:05 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (5.7ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 03 19:59:09 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "login"=>"a", "senha"=>"a"}
+Redirected to http://localhost:3000/produtos
+Completed 302 Found in 1ms
+
+
+Started GET "/produtos" for 127.0.0.1 at Fri Jun 03 19:59:09 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.8ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+Rendered produtos/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 105ms (Views: 17.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 19:59:20 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSQL (0.6ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
+Rendered produtos/show.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 25ms (Views: 17.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 03 19:59:21 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"1"}
+Rendered compras/_form.html.erb (20.0ms)
+Rendered compras/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 35ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 03 19:59:24 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"", "nome_titular"=>"", "data_validade"=>"", "bandeira_id"=>"", "numero_cartao"=>""}}
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "compras" ("numero_cartao", "codigo_seguranca", "updated_at", "bandeira_id", "created_at", "data_validade", "nome_titular") VALUES ('', '', '2011-06-03 22:59:24.167118', NULL, '2011-06-03 22:59:24.167118', '', '')
+Redirected to http://localhost:3000/enderecos/new
+Completed 302 Found in 153ms
+
+
+Started GET "/enderecos/new" for 127.0.0.1 at Fri Jun 03 19:59:24 -0300 2011
+  Processing by EnderecosController#new as HTML
+Rendered enderecos/_form.html.erb (13.3ms)
+Rendered enderecos/new.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 30ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enderecos" for 127.0.0.1 at Fri Jun 03 19:59:26 -0300 2011
+  Processing by EnderecosController#create as HTML
+  Parameters: {"endereco"=>{"complemento"=>"", "cep"=>""}, "commit"=>"Create Endereco", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "enderecos" ("cep", "complemento", "created_at", "updated_at") VALUES ('', '', '2011-06-03 22:59:26.910640', '2011-06-03 22:59:26.910640')[0m
+Redirected to http://localhost:3000/enderecos/2
+Completed 302 Found in 177ms
+
+
+Started GET "/enderecos/2" for 127.0.0.1 at Fri Jun 03 19:59:27 -0300 2011
+  Processing by EnderecosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mEndereco Load (0.2ms)[0m  SELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 2 LIMIT 1
+Rendered enderecos/show.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 20ms (Views: 12.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcom" for 127.0.0.1 at Fri Jun 03 20:16:23 -0300 2011
+
+ActionController::RoutingError (No route matches "/welcom"):
+  
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri Jun 03 20:16:24 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 03 20:16:28 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "login"=>"a", "senha"=>"a"}
+Redirected to http://localhost:3000/produtos
+Completed 302 Found in 197831ms
+
+
+Started GET "/produtos" for 127.0.0.1 at Fri Jun 03 20:19:46 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.8ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+Rendered produtos/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 53ms (Views: 20.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 03 20:20:01 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "login"=>"a", "senha"=>"a"}
+Rendered welcome/login_invalido.html.haml within layouts/application (4.6ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 03 20:20:55 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "login"=>"a", "senha"=>"a"}
+Redirected to http://localhost:3000/produtos
+Completed 302 Found in 2ms
+
+
+Started GET "/produtos" for 127.0.0.1 at Fri Jun 03 20:20:55 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.9ms)[0m  SELECT "produtos".* FROM "produtos"
+Rendered produtos/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 27ms (Views: 18.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 03 20:20:58 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 25ms (Views: 16.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 03 20:21:02 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"1"}
+Rendered compras/_form.html.erb (79.1ms)
+Rendered compras/new.html.erb within layouts/application (84.0ms)
+Completed 200 OK in 95ms (Views: 89.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri Jun 03 20:27:16 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (7.5ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 03 20:27:20 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "login"=>"a", "senha"=>"a"}
+Redirected to http://localhost:3000/produtos
+Completed 302 Found in 2ms
+
+
+Started GET "/produtos" for 127.0.0.1 at Fri Jun 03 20:27:20 -0300 2011
+  Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.6ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
+Rendered produtos/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 25ms (Views: 18.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/produtos/2" for 127.0.0.1 at Fri Jun 03 20:27:23 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduto Load (0.3ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 2 LIMIT 1
+Rendered produtos/show.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 27ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/compras/new?produto=2" for 127.0.0.1 at Fri Jun 03 20:27:24 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"2"}
+Rendered compras/_form.html.erb (89.2ms)
+Rendered compras/new.html.erb within layouts/application (94.6ms)
+Completed 200 OK in 107ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compras/new?produto=2" for 127.0.0.1 at Fri Jun 03 20:27:33 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"2"}
+Rendered compras/produto_indisponivel.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compras/new?produto=2" for 127.0.0.1 at Fri Jun 03 20:27:47 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"2"}
+Rendered compras/_form.html.erb (26.9ms)
+Rendered compras/new.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 48ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compras/new?produto=2" for 127.0.0.1 at Fri Jun 03 20:37:09 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"2"}
+Rendered compras/_form.html.erb (21.3ms)
+Rendered compras/new.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 90ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 03 20:37:11 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"", "nome_titular"=>"", "data_validade"=>"", "bandeira_id"=>"", "numero_cartao"=>""}}
+Redirected to http://localhost:3000/enderecos/new
+Completed 302 Found in 76ms
+
+
+Started GET "/enderecos/new" for 127.0.0.1 at Fri Jun 03 20:37:11 -0300 2011
+  Processing by EnderecosController#new as HTML
+Rendered enderecos/_form.html.erb (12.5ms)
+Rendered enderecos/new.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 31ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/enderecos" for 127.0.0.1 at Fri Jun 03 20:37:13 -0300 2011
+  Processing by EnderecosController#index as HTML
+  [1m[36mEndereco Load (0.5ms)[0m  [1mSELECT "enderecos".* FROM "enderecos"[0m
+Rendered enderecos/index.html.erb within layouts/application (74.1ms)
+Completed 200 OK in 89ms (Views: 80.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 03 20:37:26 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"cqSgdj1wlADVUSfOMzKztDja5kFQqdNR7II3UPK/Muw=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"", "nome_titular"=>"", "data_validade"=>"", "bandeira_id"=>"", "numero_cartao"=>""}}
+Rendered compras/sem_credito.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 23ms (Views: 9.5ms | ActiveRecord: 0.0ms)

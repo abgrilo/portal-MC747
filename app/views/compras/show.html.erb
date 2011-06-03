@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Numero cartao:</b>
+  <%= @compra.numero_cartao %>
+</p>
+
+<p>
+  <b>Codigo seguranca:</b>
+  <%= @compra.codigo_seguranca %>
+</p>
+
+<p>
+  <b>Nome titular:</b>
+  <%= @compra.nome_titular %>
+</p>
+
+<p>
+  <b>Data validade:</b>
+  <%= @compra.data_validade %>
+</p>
+
+<p>
+  <b>Bandeira:</b>
+  <%= @compra.bandeira_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_compra_path(@compra) %> |
+<%= link_to 'Back', compras_path %>

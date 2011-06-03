@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  nome: MyString
+  descricao: MyString
+  quantidade: 1
+  preco: 1.5
+
+two:
+  nome: MyString
+  descricao: MyString
+  quantidade: 1
+  preco: 1.5

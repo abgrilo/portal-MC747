@@ -1,0 +1,25 @@
+<%= form_for(@endereco) do |f| %>
+  <% if @endereco.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@endereco.errors.count, "error") %> prohibited this endereco from being saved:</h2>
+
+      <ul>
+      <% @endereco.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :cep %><br />
+    <%= f.text_field :cep %>
+  </div>
+  <div class="field">
+    <%= f.label :complemento %><br />
+    <%= f.text_field :complemento %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

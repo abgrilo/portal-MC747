@@ -1,0 +1,6 @@
+= form_tag(login_welcome_path, :method => "post") do
+  = label_tag "Login"
+  = text_field_tag 'login'
+  = label_tag "Senha"
+  = password_field_tag 'senha'
+  = submit_tag

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nome:</b>
+  <%= @produto.nome %>
+</p>
+
+<p>
+  <b>Descricao:</b>
+  <%= @produto.descricao %>
+</p>
+
+<p>
+  <b>Quantidade:</b>
+  <%= @produto.quantidade %>
+</p>
+
+<p>
+  <b>Preco:</b>
+  <%= @produto.preco %>
+</p>
+
+
+<%= link_to 'Comprar', new_compra_path(:produto => @produto) %> |
+<%= link_to 'Voltar', produtos_path %>

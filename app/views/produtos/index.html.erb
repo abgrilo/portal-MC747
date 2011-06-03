@@ -1,0 +1,25 @@
+<h1>Listing produtos</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Descricao</th>
+    <th>Quantidade</th>
+    <th>Preco</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @produtos.each do |produto| %>
+  <tr>
+    <td><%= produto.nome %></td>
+    <td><%= produto.descricao %></td>
+    <td><%= produto.quantidade %></td>
+    <td><%= produto.preco %></td>
+    <td><%= link_to 'Verificar produto', produto %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
