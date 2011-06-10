@@ -56,9 +56,9 @@ module ApplicationHelper
     resposta = ActiveSupport::JSON::decode response.body
     resposta_hash = resposta.to_hash
     if resposta_hash['erro'] == "E-mail ou senha incorretos."
-      return true
-    else
       return false
+    else
+      return true
     end
     
   end
