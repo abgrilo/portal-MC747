@@ -1,5 +1,6 @@
 module ApplicationHelper
   require 'savon'
+  require 'httpclient'
   
   # ---- EDILSON ---- #
   
@@ -46,6 +47,21 @@ module ApplicationHelper
     resp.to_hash[:obter_list_de_protocolos_response][:obter_list_de_protocolos_return]
   end
   
-  # ---- ---- #
+  # ----GRUPO 09  ---- #
+  
+  def autentica_usuario (usuario, senha)
+  
+    client = HTTPClient.new
+    response = client.get('http://server.felipegasparini.com/autenticacao/index.php?r=autenticacao/login&password='+senha+'&email='+usuario)
+    resposta = ActiveSupport::JSON::decode response.body
+    resposta_hash = resposta.to_hash
+    if resposta_hash['erro'] == "E-mail ou senha incorretos."
+      return true
+    else
+      return false
+    end
+    
+  end
+
 
 end
