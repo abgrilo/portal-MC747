@@ -62,6 +62,43 @@ module ApplicationHelper
     end
     
   end
+  
+  #  ----- GRUPO 04 ----- #
+  
+  # WARNING ! ! ! ! ! ! ! !
+  # Devido a uma cagada que fizeram no web service, o tunelamento tem que ser 8085->8085
+  # ssh -L 8085:staff01.lab.ic.unicamp.br:8085 ra075984@ssh.students.ic.unicamp.br
+  def valida_cartao_de_credito(value, card_number, security_code, owner_name, expiration_date, operator_id)
+ 
+    # Exemplo:
+    # :value => "0000.00", :cardNumber => "1111111111111111", :securityCode => "111", :ownerName => "Aremildo Valdinelson da Silva", :expirationDate => "012014", :operatorID => "1"
+    
+    card = Savon::Client.new do
+      wsdl.document = "http://localhost:8085/axis2/services/CreditCardService?wsdl"
+    end
 
-
+    resp = card.request :wsdl, :credit_card_manager, {
+      :value => value, 
+      :cardNumber => card_number, 
+      :securityCode => security_code, 
+      :ownerName => owner_name, 
+      :expirationDate => expiration_date, 
+      :operatorID => operator_id }
+    return resp.to_hash[:credit_card_manager_response][:return]
+  end
+  
+  # TODO: O grupo nao especificou os tipos de retorno nem nada, tenso.
+  def test_valida_cartao_de_credito()
+    a = valida_cartao_de_credito(0.00, "1111111111111111", "111", "Aremildo Valdinelson da Silva", 012014, 1)
+    b = valida_cartao_de_credito("0000.00", "2222222222222221", "221", "Lineide Francislleyne Coelho", "012014", "2")
+    c = valida_cartao_de_credito("0150.00", "4444444444444442", "442", "Queliquí Josylleyde Pereira", "012014", "2")
+    d = valida_cartao_de_credito("0000.00", "1111111111111111", "111", "Bryanne Ethelvina Lima", "012014", "1")
+    e = valida_cartao_de_credito("0", "666", "666", "TESTE PRA DAR ERRADO", "666", "6")
+    puts a
+    puts b
+    puts c
+    puts d
+    puts e
+  end
+  
 end
