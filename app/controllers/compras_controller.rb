@@ -9,12 +9,17 @@ class ComprasController < ApplicationController
     return true
   end
 
-  #TODO serviço
-  def tem_credito(compra)
-    return true
+  #Edilson
+  def consulta_credito_cliente (cpf)
+    client = Savon::Client.new do
+      wsdl.document = "http://www.supercontrole.com/747/wsConsultaCliente.asmx?WSDL"
+    end
+    resp = client.request :wsdl, :consulta_cliente do
+      soap.body = {:token => "TESTE", :cpf => cpf}
+    end
+    resp.to_hash[:consulta_cliente_response][:consulta_cliente_result] == "0"
   end
-
-  
+    
   # GET /compras/new
   # GET /compras/new.xml
   def new
@@ -46,7 +51,7 @@ class ComprasController < ApplicationController
     @compra = Compra.new(params[:compra])
 
      #TODO verificar crédito
-    if tem_credito(@compra)
+    if consulta_credito_cliente(session[:user].cpf)
       redirect_to new_endereco_path
     else
       render :sem_credito      

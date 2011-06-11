@@ -10,6 +10,8 @@ gem 'rake', '~> 0.8.7'
 # Use unicorn as the web server
 # gem 'unicorn'
 gem 'sass'
+gem 'nokogiri'
+gem 'savon'
 gem 'haml'
 gem 'ruby-debug'
 # Deploy with Capistrano
