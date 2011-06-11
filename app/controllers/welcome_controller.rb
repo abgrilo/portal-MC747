@@ -11,6 +11,9 @@ class WelcomeController < ApplicationController
     login = params[:login]
     senha = params[:senha]
     if verifica_login(login, senha)
+      c = Cliente.find(session[:cpf])
+      c.cpf = login
+      session[:user] = c
       redirect_to :controller => :produtos, :action => :index
     else
       render :action => :login_invalido

@@ -1,2 +1,3 @@
-class Cliente < ActiveRecord::Base
+class Cliente < ActiveResource::Base
+  self.site = "http://mc747-clientes.heroku.com/"
 end
