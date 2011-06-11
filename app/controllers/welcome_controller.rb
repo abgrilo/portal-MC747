@@ -2,16 +2,26 @@ class WelcomeController < ApplicationController
   def index
   end
 
-  #TODO trocar por servico
-  def verifica_login(login, senha)
-    return true
+  #HC
+  def verifica_login(usuario, senha)
+    client = HTTPClient.new
+    response = client.get('http://server.felipegasparini.com/autenticacao/index.php?r=autenticacao/login&password='+senha+'&email='+usuario)
+    resposta = ActiveSupport::JSON::decode(response.body).to_hash
+    puts "%%%Requisição de serviço"
+    puts resposta['erro']
+    if resposta['erro'].blank?
+      return resposta['cpf']
+    else
+      return nil
+    end
   end
+ 
   
   def login
     login = params[:login]
     senha = params[:senha]
-    if verifica_login(login, senha)
-      c = Cliente.find(session[:cpf])
+    if cpf = verifica_login(login, senha)
+      c = Cliente.find(cpf)
       c.cpf = login
       session[:user] = c
       redirect_to :controller => :produtos, :action => :index
