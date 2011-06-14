@@ -37,14 +37,25 @@ class EnderecosController < ApplicationController
     @endereco = Endereco.find(params[:id])
   end
 
+  def get_endereco(cep)
+    client = Savon::Client.new do
+      wsdl.document = "http://localhost:8085/axis2/services/EnderecosService?wsdl" 
+    end
+    resp= client.request :wsdl, :getEndereco do
+      soap.body = {:cep => cep}
+    end
+    resp.to_hash[:get_endereco_response][:return]
+  end  
+
   # POST /enderecos
   # POST /enderecos.xml
   def create
     @endereco = Endereco.new(params[:endereco])
 
+    @resp_endereco = get_endereco(@endereco.cep)
     respond_to do |format|
       if @endereco.save
-        format.html { redirect_to(@endereco, :notice => 'Endereco was successfully created.') }
+        format.html
         format.xml  { render :xml => @endereco, :status => :created, :location => @endereco }
       else
         format.html { render :action => "new" }

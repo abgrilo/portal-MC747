@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Estado:</b>
+  <%= @resp_endereco[:estado] %>
+</p>
+
+<p>
+  <b>Cidade:</b>
+  <%= @resp_endereco[:cidade] %>
+</p>
+
+<p>
+  <b>Bairro:</b>
+  <%= @resp_endereco[:bairro] %>
+</p>
+
+<p>
+  <b>Logradouro:</b>
+  <%= @resp_endereco[:logradouro] %>
+</p>
+
+<p>
+  <b>Cep:</b>
+  <%= @endereco.cep %>
+</p>
+
+<p>
+  <b>Complemento:</b>
+  <%= @endereco.complemento %>
+</p>
+
+
+<%= link_to 'Edit', edit_endereco_path(@endereco) %> |
+<%= link_to 'Back', enderecos_path %>
