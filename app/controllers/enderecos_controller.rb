@@ -47,6 +47,23 @@ class EnderecosController < ApplicationController
     resp.to_hash[:get_endereco_response][:return]
   end  
 
+  def manda_email()
+    debugger
+    client = Savon::Client.new do
+      wsdl.document = "http://localhost:3001/hello_message/wsdl"
+    end
+    
+    h = SequencedHash.new
+    h[:token] = "1"
+    h[:destinatarios] = "abgrilo@gmail.com"
+    h[:template_id] = "1"
+    h[:fields] = "abc,123"
+
+    client.request :wsdl, :hello_message do 
+      soap.body = h
+     end
+  end
+
   # POST /enderecos
   # POST /enderecos.xml
   def create
@@ -55,6 +72,7 @@ class EnderecosController < ApplicationController
     @resp_endereco = get_endereco(@endereco.cep)
     respond_to do |format|
       if @endereco.save
+        manda_email
         format.html
         format.xml  { render :xml => @endereco, :status => :created, :location => @endereco }
       else
