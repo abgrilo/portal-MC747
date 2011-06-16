@@ -101,4 +101,17 @@ module ApplicationHelper
     puts e
   end
   
+  # ---- ---- #
+  
+
+## pra parsear valores do grupo 2
+## uso: migue_to_hash "Valor1:Valor2:Valor3", [:chave1, :chave2, :chave3]
+  def migue_to_hash(strs, keys)
+    vals = strs.split(':')
+    hashi = {}
+    vals.each do |o,i|
+      hashi[keys[i]] = o
+    end
+    return hashi
+  end
 end
