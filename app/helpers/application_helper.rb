@@ -16,15 +16,17 @@ module ApplicationHelper
   
   def calcula_prazo (endereco, produtos)
     client = Savon::Client.new do
-      wsdl.document = "http://143.106.73.138:8069/ComponentLogistica/services/LogisticaEntrega" # Nao conseguimos acessar remotamente o wsdl
+      wsdl.document = "http://localhost:8069/ComponentLogistica/services/LogisticaEntrega?WSDL" # Nao conseguimos acessar remotamente o wsdl
     end
-    resp = client.request :wsdl, :calcula_prazo, {:endereco => endereco, :produtos => produtos}
+    resp = client.request :wsdl, :calcula_prazo do
+      soap.body =  {:endereco => endereco, :produtos => produtos}
+    end
     resp.to_hash[:calcula_prazo_response][:calcula_prazo_return]
   end
   
   def entrega_produtos (endereco, produtos, remetente, destinatario, id_cliente)
     client = Savon::Client.new do
-      wsdl.document = "http://143.106.73.138:8069/ComponentLogistica/services/LogisticaEntrega" # nao conseguimos acessar remotamente
+      wsdl.document = "http://143.106.73.138:8069/ComponentLogistica/services/LogisticaEntrega?WSDL" # nao conseguimos acessar remotamente
     end
     resp = client.request :wsdl, :entrega_produtos, {:endereco => endereco, :produtos => produtos, :remetente => remetente, 
       :destinatario => destinatario, :id_cliente => id_cliente}
@@ -67,14 +69,14 @@ module ApplicationHelper
   
   # WARNING ! ! ! ! ! ! ! !
   # Devido a uma cagada que fizeram no web service, o tunelamento tem que ser 8085->8085
-  # ssh -L 8085:staff01.lab.ic.unicamp.br:8085 ra075984@ssh.students.ic.unicamp.br
+  # ssh -L 8085:staff01.lab.ic.unicamp.br:8085 ra070018@ssh.students.ic.unicamp.br
   def valida_cartao_de_credito(value, card_number, security_code, owner_name, expiration_date, operator_id)
  
     # Exemplo:
     # :value => "0000.00", :cardNumber => "1111111111111111", :securityCode => "111", :ownerName => "Aremildo Valdinelson da Silva", :expirationDate => "012014", :operatorID => "1"
     
     card = Savon::Client.new do
-      wsdl.document = "http://localhost:8085/axis2/services/CreditCardService?wsdl"
+      wsdl.document = "http://localhost:8085/axis2/services/CreditCardService/CreditCardManager?"
     end
 
     resp = card.request :wsdl, :credit_card_manager, {
@@ -86,6 +88,7 @@ module ApplicationHelper
       :operatorID => operator_id }
     return resp.to_hash[:credit_card_manager_response][:return]
   end
+  
   
   # TODO: O grupo nao especificou os tipos de retorno nem nada, tenso.
   def test_valida_cartao_de_credito()
