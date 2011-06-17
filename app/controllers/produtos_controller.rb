@@ -2,7 +2,7 @@ class ProdutosController < ApplicationController
   # GET /produtos
   # GET /produtos.xml
   def index
-    @produtos = Produto.all
+    @produtos = Produto.soa_find_all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -13,7 +13,8 @@ class ProdutosController < ApplicationController
   # GET /produtos/1
   # GET /produtos/1.xml
   def show
-    @produto = Produto.find(params[:id])
+    @produto = Produto.soa_find_by_id(params[:id])
+    Produto.soa_find_availability_by_id(@produto.id, @produto)
 
     respond_to do |format|
       format.html # show.html.erb

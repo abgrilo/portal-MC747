@@ -6,7 +6,7 @@ class ComprasController < ApplicationController
 
   #TODO serviço
   def tem_produto_no_estoque(id_produto)
-    return true
+    return Produto.soa_find_availability_by_id(id_produto, nil) > 0
   end
 
   #Edilson

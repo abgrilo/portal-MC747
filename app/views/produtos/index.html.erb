@@ -18,7 +18,7 @@
     <td><%= produto.descricao %></td>
     <td><%= produto.quantidade %></td>
     <td><%= produto.preco %></td>
-    <td><%= link_to 'Verificar produto', produto %></td>
+    <td><%= link_to 'Verificar produto', {:controller => "produtos", :action => "show", :id => produto.id}%></td>
   </tr>
 <% end %>
 </table>
