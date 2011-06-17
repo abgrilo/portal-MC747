@@ -44,11 +44,14 @@ class EnderecosController < ApplicationController
     resp= client.request :wsdl, :getEndereco do
       soap.body = {:cep => cep}
     end
-    resp.to_hash[:get_endereco_response][:return]
+    r = resp.to_hash[:get_endereco_response][:return]
+    if r[:logradouro] == "-1"
+      return nil
+    end
+    return r
   end  
 
   def manda_email()
-    debugger
     client = Savon::Client.new do
       wsdl.document = "http://localhost:3001/hello_message/wsdl"
     end
@@ -69,8 +72,8 @@ class EnderecosController < ApplicationController
   def create
     @endereco = Endereco.new(params[:endereco])
 
-    @resp_endereco = get_endereco(@endereco.cep)
     respond_to do |format|
+      @resp_endereco = get_endereco(@endereco.cep)
       if @endereco.save
         manda_email
         format.html
