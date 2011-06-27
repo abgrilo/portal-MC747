@@ -49,7 +49,7 @@ class ComprasController < ApplicationController
       return
     end
     
-    @data_entrega = calcula_prazo(id_produto, "4")
+    @data_entrega = calcula_prazo("2", "4")
     if @data_entrega == "EnderecoNaoAtendido"
       respond_to do |format|
         render :endereco_nao_atendido
