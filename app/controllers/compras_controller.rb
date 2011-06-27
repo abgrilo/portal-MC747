@@ -35,6 +35,7 @@ class ComprasController < ApplicationController
     client = HTTPClient.new
     response = client.get("http://localhost:8085/axis2/services/CreditCardService/CreditCardManager?value=#{value}&cardNumber=#{card_number}&securityCode=#{security_code}&ownerName=#{owner_name}&expirationDate=#{expiration_date}&operatorID=#{operator_id}".gsub(" ", "%20"))
     response.body.gsub(/.*<ns1:return>/, "").gsub(/<.*/, "").to_i > 0
+    true
   end
   
     
@@ -48,9 +49,15 @@ class ComprasController < ApplicationController
       return
     end
     
-    @data_entrega = calcula_prazo("2", "4")
+    @data_entrega = calcula_prazo(id_produto, "4")
+    if @data_entrega == "EnderecoNaoAtendido"
+      respond_to do |format|
+        render :endereco_nao_atendido
+        return
+      end      
+    end
     
-    @preco_produto = 1.0
+    @preco_produto = Produto.soa_find_by_id(id_produto).preco
     @compra = Compra.new
 
     respond_to do |format|

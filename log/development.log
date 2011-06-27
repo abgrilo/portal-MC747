@@ -3464,973 +3464,347 @@ Rendered compras/sem_credito.html.haml within layouts/application (3.9ms)
 Completed 200 OK in 23ms (Views: 9.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/welcome" for 127.0.0.1 at Fri Jun 17 18:36:57 -0300 2011
+Started GET "/welcome" for 143.106.16.163 at Fri Jun 17 20:48:18 -0300 2011
   Processing by WelcomeController#index as HTML
-Rendered welcome/index.html.haml within layouts/application (5.5ms)
-Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+Rendered welcome/index.html.haml within layouts/application (5.8ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/welcome" for 127.0.0.1 at Fri Jun 17 18:56:18 -0300 2011
-
-SyntaxError (/home/alex/1s2011/sindo/portal/app/helpers/application_helper.rb:96: no .<digit> floating literal anymore; put 0 before dot
-...1111111111111;012014;111;0000.00;1;Aremildo Valdinelson da S...
-                              ^
-/home/alex/1s2011/sindo/portal/app/helpers/application_helper.rb:96: syntax error, unexpected tINTEGER
-...11111111111;012014;111;0000.00;1;Aremildo Valdinelson da Sil...
-                              ^):
-  app/controllers/application_controller.rb:1
-  app/controllers/welcome_controller.rb:1
-
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
-
-
-Started GET "/welcome" for 127.0.0.1 at Fri Jun 17 18:57:09 -0300 2011
-  Processing by WelcomeController#index as HTML
-Rendered welcome/index.html.haml within layouts/application (6.1ms)
-Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 17 18:57:31 -0300 2011
-  Processing by WelcomeController#login as HTML
-  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "login"=>"eder@email.com", "senha"=>"eder"}
-Redirected to http://localhost:3000/produtos
-Completed 302 Found in 23944ms
-
-
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 18:57:56 -0300 2011
-  Processing by ProdutosController#index as HTML
-  [1m[36mProduto Load (0.8ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
-Rendered produtos/index.html.erb within layouts/application (14.7ms)
-Completed 200 OK in 101ms (Views: 20.0ms | ActiveRecord: 0.8ms)
-
-
-Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 17 18:58:06 -0300 2011
-  Processing by WelcomeController#login as HTML
-  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "login"=>"eder@email.com", "senha"=>"eder"}
-Redirected to http://localhost:3000/produtos
-Completed 302 Found in 1635ms
-
-
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 18:58:08 -0300 2011
-  Processing by ProdutosController#index as HTML
-  [1m[35mProduto Load (0.6ms)[0m  SELECT "produtos".* FROM "produtos"
-Rendered produtos/index.html.erb within layouts/application (10.5ms)
-Completed 200 OK in 22ms (Views: 15.5ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 17 18:58:13 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"1"}
-  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1
-Rendered produtos/show.html.erb within layouts/application (83.5ms)
-Completed 200 OK in 96ms (Views: 88.4ms | ActiveRecord: 0.8ms)
-
-
-Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 17 18:58:15 -0300 2011
-  Processing by ComprasController#new as HTML
-  Parameters: {"produto"=>"1"}
-Rendered compras/_form.html.erb (150.8ms)
-Rendered compras/new.html.erb within layouts/application (155.2ms)
-Completed 200 OK in 264ms (Views: 160.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 17 18:58:34 -0300 2011
-  Processing by ComprasController#new as HTML
-  Parameters: {"produto"=>"1"}
-Rendered compras/_form.html.erb (95.2ms)
-Rendered compras/new.html.erb within layouts/application (99.4ms)
-Completed 200 OK in 191ms (Views: 104.0ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/welcome/" for 127.0.0.1 at Fri Jun 17 19:31:03 -0300 2011
-  Processing by WelcomeController#index as HTML
-Rendered welcome/index.html.haml within layouts/application (5.9ms)
-Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 17 19:31:09 -0300 2011
-  Processing by WelcomeController#login as HTML
-  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "login"=>"eder@email.com", "senha"=>"eder"}
-Redirected to http://localhost:3000/produtos
-Completed 302 Found in 1964ms
-
-
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 19:31:11 -0300 2011
-  Processing by ProdutosController#index as HTML
-  [1m[36mProduto Load (0.8ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
-Rendered produtos/index.html.erb within layouts/application (93.4ms)
-Completed 200 OK in 128ms (Views: 98.1ms | ActiveRecord: 0.8ms)
-
-
-Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 17 19:31:18 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"1"}
-  [1m[35mSQL (0.6ms)[0m   SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
-Rendered produtos/show.html.erb within layouts/application (9.1ms)
-Completed 200 OK in 21ms (Views: 13.8ms | ActiveRecord: 0.8ms)
-
-
-Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 17 19:31:21 -0300 2011
-  Processing by ComprasController#new as HTML
-  Parameters: {"produto"=>"1"}
-Rendered compras/_form.html.erb (22.2ms)
-Rendered compras/new.html.erb within layouts/application (26.6ms)
-Completed 200 OK in 150ms (Views: 31.3ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/compras" for 127.0.0.1 at Fri Jun 17 19:31:44 -0300 2011
-  Processing by ComprasController#create as HTML
-  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"", "nome_titular"=>"", "data_validade"=>"", "bandeira_id"=>"", "numero_cartao"=>""}}
-Rendered compras/sem_credito.html.haml within layouts/application (3.2ms)
-Completed 200 OK in 1990ms (Views: 26.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 17 19:32:13 -0300 2011
-  Processing by ComprasController#new as HTML
-  Parameters: {"produto"=>"1"}
-Rendered compras/_form.html.erb (19.2ms)
-Rendered compras/new.html.erb within layouts/application (23.8ms)
-Completed 200 OK in 175ms (Views: 29.0ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/compras" for 127.0.0.1 at Fri Jun 17 19:32:14 -0300 2011
-  Processing by ComprasController#create as HTML
-  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"", "nome_titular"=>"", "data_validade"=>"", "bandeira_id"=>"", "numero_cartao"=>""}}
-Redirected to http://localhost:3000/enderecos/new
-Completed 302 Found in 87ms
-
-
-Started GET "/enderecos/new" for 127.0.0.1 at Fri Jun 17 19:32:14 -0300 2011
-  Processing by EnderecosController#new as HTML
-Rendered enderecos/_form.html.erb (12.1ms)
-Rendered enderecos/new.html.erb within layouts/application (17.0ms)
-Completed 200 OK in 28ms (Views: 21.8ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/enderecos" for 127.0.0.1 at Fri Jun 17 19:32:19 -0300 2011
-  Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"2123", "cep"=>"13083852"}, "commit"=>"Create Endereco", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓"}
-  [1m[35mAREL (0.4ms)[0m  INSERT INTO "enderecos" ("updated_at", "complemento", "created_at", "cep") VALUES ('2011-06-17 22:32:19.286284', '2123', '2011-06-17 22:32:19.286284', '13083852')
-Completed   in 11860ms
-
-Errno::ECONNREFUSED (Connection refused - connect(2) (http://localhost:3001)):
-  app/controllers/enderecos_controller.rb:62:in `manda_email'
-  app/controllers/enderecos_controller.rb:75:in `create'
-  app/controllers/enderecos_controller.rb:73:in `create'
-
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.2ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.6ms)
-
-
-Started GET "/welcome" for 127.0.0.1 at Fri Jun 17 19:50:34 -0300 2011
-  Processing by WelcomeController#index as HTML
-Rendered welcome/index.html.haml within layouts/application (8.2ms)
-Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 17 19:50:57 -0300 2011
-  Processing by WelcomeController#login as HTML
-  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "login"=>"eder@email.com ", "senha"=>"eder"}
-Completed   in 1ms
-
-URI::InvalidURIError (bad URI(is not URI?): http://server.felipegasparini.com/autenticacao/index.php?r=autenticacao/login&password=eder&email=eder@email.com ):
-  app/controllers/welcome_controller.rb:8:in `verifica_login'
-  app/controllers/welcome_controller.rb:23:in `login'
-
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.3ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (85.7ms)
-
-
-Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 17 19:51:17 -0300 2011
-  Processing by WelcomeController#login as HTML
-  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "login"=>"eder@email.com", "senha"=>"eder"}
-Redirected to http://localhost:3000/produtos
-Completed 302 Found in 1956ms
-
-
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 19:51:19 -0300 2011
-  Processing by ProdutosController#index as HTML
-  [1m[36mProduto Load (0.9ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
-Rendered produtos/index.html.erb within layouts/application (12.7ms)
-Completed 200 OK in 50ms (Views: 17.7ms | ActiveRecord: 0.9ms)
-
-
-Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 17 19:51:22 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"1"}
-  [1m[35mSQL (0.5ms)[0m   SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
-Rendered produtos/show.html.erb within layouts/application (80.9ms)
-Completed 200 OK in 93ms (Views: 85.7ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 17 19:51:23 -0300 2011
-
-SyntaxError (/home/alex/1s2011/sindo/portal/app/controllers/compras_controller.rb:76: syntax error, unexpected tIDENTIFIER, expecting ')'
-      redirect_to new_endereco_path
-                 ^
-/home/alex/1s2011/sindo/portal/app/controllers/compras_controller.rb:83: syntax error, unexpected kEND, expecting $end):
-  
-
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
-
-
-Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 17 19:51:35 -0300 2011
-  Processing by ComprasController#new as HTML
-  Parameters: {"produto"=>"1"}
-Rendered compras/_form.html.erb (100.7ms)
-Rendered compras/new.html.erb within layouts/application (105.6ms)
-Completed 200 OK in 224ms (Views: 110.4ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/compras" for 127.0.0.1 at Fri Jun 17 19:52:45 -0300 2011
-  Processing by ComprasController#create as HTML
-  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
-Completed   in 53127ms
-
-NoMethodError (undefined method `bandeira' for #<Compra:0xb5eac648>):
-  app/controllers/compras_controller.rb:75:in `create'
-
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (79.1ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (86.4ms)
-
-
-Started POST "/compras" for 127.0.0.1 at Fri Jun 17 19:53:41 -0300 2011
-  Processing by ComprasController#create as HTML
-  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
-
-
-Started POST "/compras" for 127.0.0.1 at Fri Jun 17 19:54:03 -0300 2011
-  Processing by ComprasController#create as HTML
-  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
-Redirected to http://localhost:3000/enderecos/new
-Completed 302 Found in 31132ms
-
-
-Started GET "/enderecos/new" for 127.0.0.1 at Fri Jun 17 19:54:35 -0300 2011
-  Processing by EnderecosController#new as HTML
-Rendered enderecos/_form.html.erb (16.1ms)
-Rendered enderecos/new.html.erb within layouts/application (22.2ms)
-Completed 200 OK in 35ms (Views: 27.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/welcome" for 143.106.16.163 at Fri Jun 17 20:01:10 -0300 2011
-  Processing by WelcomeController#index as HTML
-Rendered welcome/index.html.haml within layouts/application (6.8ms)
-Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/login_welcome" for 143.106.16.163 at Fri Jun 17 20:01:28 -0300 2011
+Started POST "/login_welcome" for 143.106.16.163 at Fri Jun 17 20:48:26 -0300 2011
   Processing by WelcomeController#login as HTML
   Parameters: {"commit"=>"Save changes", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "login"=>"eder@email.com", "senha"=>"eder"}
 Redirected to http://localhost:3000/produtos
-Completed 302 Found in 1915ms
+Completed 302 Found in 2443ms
 
 
-Started GET "/produtos" for 143.106.16.163 at Fri Jun 17 20:01:30 -0300 2011
+Started GET "/produtos" for 143.106.16.163 at Fri Jun 17 20:48:36 -0300 2011
   Processing by ProdutosController#index as HTML
-  [1m[36mProduto Load (0.6ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
-Rendered produtos/index.html.erb within layouts/application (12.6ms)
-Completed 200 OK in 51ms (Views: 17.6ms | ActiveRecord: 0.6ms)
+Rendered produtos/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 1656ms (Views: 88.2ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/produtos/1" for 143.106.16.163 at Fri Jun 17 20:01:35 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"1"}
-  [1m[35mSQL (0.6ms)[0m   SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
-Rendered produtos/show.html.erb within layouts/application (12.2ms)
-Completed 200 OK in 94ms (Views: 85.2ms | ActiveRecord: 0.8ms)
-
-
-Started GET "/compras/new?produto=1" for 143.106.16.163 at Fri Jun 17 20:01:40 -0300 2011
-  Processing by ComprasController#new as HTML
-  Parameters: {"produto"=>"1"}
-Rendered compras/_form.html.erb (91.3ms)
-Rendered compras/new.html.erb within layouts/application (96.3ms)
-Completed 200 OK in 229ms (Views: 101.5ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/compras" for 143.106.16.163 at Fri Jun 17 20:02:10 -0300 2011
-  Processing by ComprasController#create as HTML
-  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
-Redirected to http://localhost:3000/enderecos/new
-Completed 302 Found in 161ms
-
-
-Started GET "/enderecos/new" for 143.106.16.163 at Fri Jun 17 20:02:11 -0300 2011
-  Processing by EnderecosController#new as HTML
-Rendered enderecos/_form.html.erb (11.7ms)
-Rendered enderecos/new.html.erb within layouts/application (16.4ms)
-Completed 200 OK in 28ms (Views: 21.3ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:02:53 -0300 2011
-  Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"9999", "cep"=>"13083852"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-  [1m[35mAREL (2.8ms)[0m  INSERT INTO "enderecos" ("created_at", "complemento", "cep", "updated_at") VALUES ('2011-06-17 23:02:53.615226', '9999', '13083852', '2011-06-17 23:02:53.615226')
-Completed   in 9235ms
-
-Errno::ECONNREFUSED (Connection refused - connect(2) (http://localhost:3001)):
-  app/controllers/enderecos_controller.rb:62:in `manda_email'
-  app/controllers/enderecos_controller.rb:75:in `create'
-  app/controllers/enderecos_controller.rb:73:in `create'
-
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.0ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.8ms)
-
-
-Started GET "/welcome" for 143.106.16.163 at Fri Jun 17 20:03:49 -0300 2011
-  Processing by WelcomeController#index as HTML
-Rendered welcome/index.html.haml within layouts/application (7.1ms)
-Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/login_welcome" for 143.106.16.163 at Fri Jun 17 20:03:58 -0300 2011
-  Processing by WelcomeController#login as HTML
-  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "login"=>"eder@email.com", "senha"=>"eder"}
-Redirected to http://localhost:3000/produtos
-Completed 302 Found in 2064ms
-
-
-Started GET "/produtos" for 143.106.16.163 at Fri Jun 17 20:04:00 -0300 2011
-  Processing by ProdutosController#index as HTML
-  [1m[36mProduto Load (0.6ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
-Rendered produtos/index.html.erb within layouts/application (12.7ms)
-Completed 200 OK in 25ms (Views: 17.6ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/produtos/3" for 143.106.16.163 at Fri Jun 17 20:04:07 -0300 2011
+Started GET "/produtos/3" for 143.106.16.163 at Fri Jun 17 20:48:42 -0300 2011
   Processing by ProdutosController#show as HTML
   Parameters: {"id"=>"3"}
-  [1m[35mProduto Load (0.2ms)[0m  SELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 3 LIMIT 1
-Rendered produtos/show.html.erb within layouts/application (10.9ms)
-Completed 200 OK in 24ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+Rendered produtos/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1036ms (Views: 8.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/compras/new?produto=3" for 143.106.16.163 at Fri Jun 17 20:04:11 -0300 2011
+Started GET "/compras/new?produto=3" for 143.106.16.163 at Fri Jun 17 20:48:46 -0300 2011
   Processing by ComprasController#new as HTML
   Parameters: {"produto"=>"3"}
-Rendered compras/_form.html.erb (20.8ms)
-Rendered compras/new.html.erb within layouts/application (27.2ms)
-Completed 200 OK in 147ms (Views: 32.4ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/compras" for 143.106.16.163 at Fri Jun 17 20:04:31 -0300 2011
-  Processing by ComprasController#create as HTML
-  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
-Redirected to http://localhost:3000/enderecos/new
-Completed 302 Found in 96ms
-
-
-Started GET "/enderecos/new" for 143.106.16.163 at Fri Jun 17 20:04:35 -0300 2011
-  Processing by EnderecosController#new as HTML
-Rendered enderecos/_form.html.erb (12.0ms)
-Rendered enderecos/new.html.erb within layouts/application (16.6ms)
-Completed 200 OK in 28ms (Views: 21.5ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:04:41 -0300 2011
-  Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"9999", "cep"=>"13083852"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-  [1m[36mAREL (2.8ms)[0m  [1mINSERT INTO "enderecos" ("updated_at", "created_at", "cep", "complemento") VALUES ('2011-06-17 23:04:41.437913', '2011-06-17 23:04:41.437913', '13083852', '9999')[0m
-Rendered enderecos/create.html.erb within layouts/application (4.4ms)
-Completed 200 OK in 3981ms (Views: 9.8ms | ActiveRecord: 2.8ms)
-
-
-Started GET "/enderecos/5/edit" for 143.106.16.163 at Fri Jun 17 20:05:37 -0300 2011
-  Processing by EnderecosController#edit as HTML
-  Parameters: {"id"=>"5"}
-  [1m[35mEndereco Load (0.2ms)[0m  SELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 5 LIMIT 1
-Rendered enderecos/_form.html.erb (11.9ms)
-Rendered enderecos/edit.html.erb within layouts/application (17.1ms)
-Completed 200 OK in 29ms (Views: 22.0ms | ActiveRecord: 0.2ms)
-
-
-Started POST "/enderecos/5" for 143.106.16.163 at Fri Jun 17 20:05:50 -0300 2011
-  Processing by EnderecosController#update as HTML
-  Parameters: {"endereco"=>{"complemento"=>"9999", "cep"=>"13083460"}, "commit"=>"Update Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "id"=>"5"}
-  [1m[36mEndereco Load (0.2ms)[0m  [1mSELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 5 LIMIT 1[0m
-  [1m[35mAREL (0.3ms)[0m  UPDATE "enderecos" SET "cep" = '13083460', "updated_at" = '2011-06-17 23:05:50.225790' WHERE "enderecos"."id" = 5
-Redirected to http://localhost:3000/enderecos/5
-Completed 302 Found in 104ms
-
-
-Started GET "/enderecos/5" for 143.106.16.163 at Fri Jun 17 20:05:50 -0300 2011
-  Processing by EnderecosController#show as HTML
-  Parameters: {"id"=>"5"}
-  [1m[36mEndereco Load (0.2ms)[0m  [1mSELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 5 LIMIT 1[0m
-Rendered enderecos/show.html.erb within layouts/application (9.2ms)
-Completed 200 OK in 22ms (Views: 14.2ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/enderecos/5/edit" for 143.106.16.163 at Fri Jun 17 20:05:55 -0300 2011
-  Processing by EnderecosController#edit as HTML
-  Parameters: {"id"=>"5"}
-  [1m[35mEndereco Load (0.2ms)[0m  SELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 5 LIMIT 1
-Rendered enderecos/_form.html.erb (12.6ms)
-Rendered enderecos/edit.html.erb within layouts/application (17.9ms)
-Completed 200 OK in 31ms (Views: 23.1ms | ActiveRecord: 0.2ms)
-
-
-Started POST "/enderecos/5" for 143.106.16.163 at Fri Jun 17 20:06:19 -0300 2011
-  Processing by EnderecosController#update as HTML
-  Parameters: {"endereco"=>{"complemento"=>"9999", "cep"=>"13083852"}, "commit"=>"Update Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "id"=>"5"}
-  [1m[36mEndereco Load (0.2ms)[0m  [1mSELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 5 LIMIT 1[0m
-  [1m[35mAREL (0.5ms)[0m  UPDATE "enderecos" SET "updated_at" = '2011-06-17 23:06:19.682679', "cep" = '13083852' WHERE "enderecos"."id" = 5
-Redirected to http://localhost:3000/enderecos/5
-Completed 302 Found in 182ms
-
-
-Started GET "/enderecos/5" for 143.106.16.163 at Fri Jun 17 20:06:19 -0300 2011
-  Processing by EnderecosController#show as HTML
-  Parameters: {"id"=>"5"}
-  [1m[36mEndereco Load (0.2ms)[0m  [1mSELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 5 LIMIT 1[0m
-Rendered enderecos/show.html.erb within layouts/application (9.1ms)
-Completed 200 OK in 22ms (Views: 14.0ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:06:22 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[35mEndereco Load (0.7ms)[0m  SELECT "enderecos".* FROM "enderecos"
-Rendered enderecos/index.html.erb within layouts/application (92.4ms)
-Completed 200 OK in 104ms (Views: 97.3ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/enderecos/1" for 143.106.16.163 at Fri Jun 17 20:06:27 -0300 2011
-  Processing by EnderecosController#show as HTML
-  Parameters: {"id"=>"1"}
-  [1m[36mEndereco Load (0.2ms)[0m  [1mSELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 1 LIMIT 1[0m
-Rendered enderecos/show.html.erb within layouts/application (9.1ms)
-Completed 200 OK in 22ms (Views: 14.0ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:06:30 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[35mEndereco Load (0.6ms)[0m  SELECT "enderecos".* FROM "enderecos"
-Rendered enderecos/index.html.erb within layouts/application (17.9ms)
-Completed 200 OK in 30ms (Views: 22.9ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/enderecos/2" for 143.106.16.163 at Fri Jun 17 20:06:34 -0300 2011
-  Processing by EnderecosController#show as HTML
-  Parameters: {"id"=>"2"}
-  [1m[36mEndereco Load (2.4ms)[0m  [1mSELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 2 LIMIT 1[0m
-Rendered enderecos/show.html.erb within layouts/application (10.9ms)
-Completed 200 OK in 93ms (Views: 16.8ms | ActiveRecord: 2.4ms)
-
-
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:06:36 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[35mEndereco Load (0.7ms)[0m  SELECT "enderecos".* FROM "enderecos"
-Rendered enderecos/index.html.erb within layouts/application (17.0ms)
-Completed 200 OK in 29ms (Views: 21.9ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/enderecos/3" for 143.106.16.163 at Fri Jun 17 20:06:39 -0300 2011
-  Processing by EnderecosController#show as HTML
-  Parameters: {"id"=>"3"}
-  [1m[36mEndereco Load (0.2ms)[0m  [1mSELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 3 LIMIT 1[0m
-Rendered enderecos/show.html.erb within layouts/application (9.8ms)
-Completed 200 OK in 23ms (Views: 14.8ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:06:53 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[35mEndereco Load (0.7ms)[0m  SELECT "enderecos".* FROM "enderecos"
-Rendered enderecos/index.html.erb within layouts/application (20.4ms)
-Completed 200 OK in 101ms (Views: 27.9ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/enderecos/new" for 143.106.16.163 at Fri Jun 17 20:06:56 -0300 2011
-  Processing by EnderecosController#new as HTML
-Rendered enderecos/_form.html.erb (11.7ms)
-Rendered enderecos/new.html.erb within layouts/application (16.3ms)
-Completed 200 OK in 96ms (Views: 90.0ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:07:01 -0300 2011
-  Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083460"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "enderecos" ("cep", "complemento", "updated_at", "created_at") VALUES ('13083460', '123', '2011-06-17 23:07:01.820530', '2011-06-17 23:07:01.820530')[0m
-Rendered enderecos/create.html.erb within layouts/application (4.9ms)
-Completed 200 OK in 680ms (Views: 10.3ms | ActiveRecord: 0.3ms)
-
-
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:07:27 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[35mEndereco Load (0.7ms)[0m  SELECT "enderecos".* FROM "enderecos"
-Rendered enderecos/index.html.erb within layouts/application (18.8ms)
-Completed 200 OK in 31ms (Views: 23.6ms | ActiveRecord: 0.7ms)
-
-
-Started POST "/enderecos/6" for 143.106.16.163 at Fri Jun 17 20:07:33 -0300 2011
-  Processing by EnderecosController#destroy as HTML
-  Parameters: {"authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "id"=>"6"}
-  [1m[36mEndereco Load (0.2ms)[0m  [1mSELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 6 LIMIT 1[0m
-  [1m[35mAREL (0.3ms)[0m  DELETE FROM "enderecos" WHERE "enderecos"."id" = 6
-Redirected to http://localhost:3000/enderecos
-Completed 302 Found in 102ms
-
-
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:07:33 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[36mEndereco Load (0.7ms)[0m  [1mSELECT "enderecos".* FROM "enderecos"[0m
-Rendered enderecos/index.html.erb within layouts/application (17.9ms)
-Completed 200 OK in 30ms (Views: 22.7ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/enderecos/new" for 143.106.16.163 at Fri Jun 17 20:07:36 -0300 2011
-  Processing by EnderecosController#new as HTML
-Rendered enderecos/_form.html.erb (12.6ms)
-Rendered enderecos/new.html.erb within layouts/application (17.5ms)
-Completed 200 OK in 29ms (Views: 22.3ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:07:40 -0300 2011
-  Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083460"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-  [1m[35mAREL (0.3ms)[0m  INSERT INTO "enderecos" ("complemento", "cep", "updated_at", "created_at") VALUES ('123', '13083460', '2011-06-17 23:07:41.023982', '2011-06-17 23:07:41.023982')
-Rendered enderecos/create.html.erb within layouts/application (4.8ms)
-Completed 200 OK in 613ms (Views: 13.0ms | ActiveRecord: 0.3ms)
-
-
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:08:48 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[36mEndereco Load (0.7ms)[0m  [1mSELECT "enderecos".* FROM "enderecos"[0m
-Rendered enderecos/index.html.erb within layouts/application (19.6ms)
-Completed 200 OK in 32ms (Views: 24.7ms | ActiveRecord: 0.7ms)
-
-
-Started GET "/welcome" for 143.106.16.163 at Fri Jun 17 20:09:01 -0300 2011
-  Processing by WelcomeController#index as HTML
-Rendered welcome/index.html.haml within layouts/application (7.6ms)
-Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/login_welcome" for 143.106.16.163 at Fri Jun 17 20:09:06 -0300 2011
-  Processing by WelcomeController#login as HTML
-  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "login"=>"eder@email.com", "senha"=>"eder"}
-Redirected to http://localhost:3000/produtos
-Completed 302 Found in 1833ms
-
-
-Started GET "/produtos" for 143.106.16.163 at Fri Jun 17 20:09:08 -0300 2011
-  Processing by ProdutosController#index as HTML
-  [1m[35mProduto Load (0.6ms)[0m  SELECT "produtos".* FROM "produtos"
-Rendered produtos/index.html.erb within layouts/application (88.6ms)
-Completed 200 OK in 103ms (Views: 96.0ms | ActiveRecord: 0.6ms)
-
-
-Started GET "/produtos/1" for 143.106.16.163 at Fri Jun 17 20:09:14 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"1"}
-  [1m[36mProduto Load (0.2ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE "produtos"."id" = 1 LIMIT 1[0m
-Rendered produtos/show.html.erb within layouts/application (11.3ms)
-Completed 200 OK in 25ms (Views: 16.4ms | ActiveRecord: 0.2ms)
-
-
-Started GET "/compras/new?produto=1" for 143.106.16.163 at Fri Jun 17 20:09:19 -0300 2011
-  Processing by ComprasController#new as HTML
-  Parameters: {"produto"=>"1"}
-Rendered compras/_form.html.erb (21.1ms)
+Rendered compras/_form.html.erb (22.0ms)
 Rendered compras/new.html.erb within layouts/application (26.0ms)
-Completed 200 OK in 149ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 685ms (Views: 30.5ms | ActiveRecord: 0.0ms)
 
 
-Started POST "/compras" for 143.106.16.163 at Fri Jun 17 20:09:27 -0300 2011
-  Processing by ComprasController#create as HTML
-  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"123", "nome_titular"=>"123", "data_validade"=>"123", "bandeira_id"=>"123", "numero_cartao"=>"5555555555555551"}}
-Rendered compras/sem_credito.html.haml within layouts/application (6.9ms)
-Completed 200 OK in 1623ms (Views: 11.8ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/compras" for 143.106.16.163 at Fri Jun 17 20:09:50 -0300 2011
+Started POST "/compras" for 143.106.16.163 at Fri Jun 17 20:48:57 -0300 2011
   Processing by ComprasController#create as HTML
   Parameters: {"commit"=>"Create Compra", "preco_produto"=>"1.0", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
 Redirected to http://localhost:3000/enderecos/new
 Completed 302 Found in 94ms
 
 
-Started GET "/enderecos/new" for 143.106.16.163 at Fri Jun 17 20:09:51 -0300 2011
+Started GET "/enderecos/new" for 143.106.16.163 at Fri Jun 17 20:48:58 -0300 2011
   Processing by EnderecosController#new as HTML
-Rendered enderecos/_form.html.erb (12.1ms)
-Rendered enderecos/new.html.erb within layouts/application (16.7ms)
-Completed 200 OK in 28ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+Rendered enderecos/_form.html.erb (11.4ms)
+Rendered enderecos/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 26ms (Views: 20.5ms | ActiveRecord: 0.0ms)
 
 
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:10:00 -0300 2011
+Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:49:06 -0300 2011
   Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083460"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-Completed   in 145ms
-
-NoMethodError (undefined method `r' for #<EnderecosController:0xb5d4bf60>):
-  app/controllers/enderecos_controller.rb:47:in `get_endereco'
-  app/controllers/enderecos_controller.rb:76:in `create'
-  app/controllers/enderecos_controller.rb:75:in `create'
-
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.3ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (97.1ms)
+  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083852"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "enderecos" ("created_at", "updated_at", "cep", "complemento") VALUES ('2011-06-17 23:49:06.457354', '2011-06-17 23:49:06.457354', '13083852', '123')
+Rendered enderecos/create.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 651ms (Views: 8.7ms | ActiveRecord: 0.7ms)
 
 
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:10:15 -0300 2011
+Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:49:48 -0300 2011
   Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083460"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-  [1m[35mAREL (0.3ms)[0m  INSERT INTO "enderecos" ("cep", "complemento", "created_at", "updated_at") VALUES ('13083460', '123', '2011-06-17 23:10:15.459882', '2011-06-17 23:10:15.459882')
-Rendered enderecos/create.html.erb within layouts/application (4.0ms)
-Completed 200 OK in 676ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083852"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "enderecos" ("cep", "complemento", "created_at", "updated_at") VALUES ('13083852', '123', '2011-06-17 23:49:49.240675', '2011-06-17 23:49:49.240675')[0m
+Rendered enderecos/create.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 719ms (Views: 12.3ms | ActiveRecord: 0.3ms)
 
 
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:10:39 -0300 2011
-  Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083460"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-  [1m[36mAREL (2.6ms)[0m  [1mINSERT INTO "enderecos" ("updated_at", "created_at", "cep", "complemento") VALUES ('2011-06-17 23:10:39.466228', '2011-06-17 23:10:39.466228', '13083460', '123')[0m
-Rendered enderecos/_form.html.erb (7.6ms)
-Rendered enderecos/new.html.erb within layouts/application (12.9ms)
-Completed 200 OK in 608ms (Views: 19.8ms | ActiveRecord: 2.6ms)
+Started GET "/compras/new?produto=3" for 143.106.16.163 at Fri Jun 17 20:50:14 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"3"}
+Rendered compras/_form.html.erb (94.8ms)
+Rendered compras/new.html.erb within layouts/application (99.1ms)
+Completed 200 OK in 763ms (Views: 104.0ms | ActiveRecord: 0.0ms)
 
 
-Started POST "/enderecos/9" for 143.106.16.163 at Fri Jun 17 20:10:47 -0300 2011
-  Processing by EnderecosController#update as HTML
-  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083460"}, "commit"=>"Update Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "id"=>"9"}
-  [1m[35mEndereco Load (0.2ms)[0m  SELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 9 LIMIT 1
-Redirected to http://localhost:3000/enderecos/9
-Completed 302 Found in 15ms
+Started GET "/compras/new?produto=3" for 143.106.16.163 at Fri Jun 17 20:51:00 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"3"}
+Rendered compras/_form.html.erb (17.4ms)
+Rendered compras/new.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 1350ms (Views: 26.9ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/enderecos/9" for 143.106.16.163 at Fri Jun 17 20:10:47 -0300 2011
-  Processing by EnderecosController#show as HTML
-  Parameters: {"id"=>"9"}
-  [1m[36mEndereco Load (0.2ms)[0m  [1mSELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 9 LIMIT 1[0m
-Rendered enderecos/show.html.erb within layouts/application (85.1ms)
-Completed 200 OK in 98ms (Views: 90.1ms | ActiveRecord: 0.2ms)
+Started GET "/compras/new?produto=2" for 143.106.16.163 at Fri Jun 17 20:51:15 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"2"}
+Rendered compras/_form.html.erb (87.8ms)
+Rendered compras/new.html.erb within layouts/application (92.8ms)
+Completed 200 OK in 1240ms (Views: 97.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:10:52 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[35mEndereco Load (0.7ms)[0m  SELECT "enderecos".* FROM "enderecos"
-Rendered enderecos/index.html.erb within layouts/application (22.9ms)
-Completed 200 OK in 35ms (Views: 27.8ms | ActiveRecord: 0.7ms)
+Started GET "/compras/new?produto=3" for 143.106.16.163 at Fri Jun 17 20:51:25 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"3"}
+Rendered compras/_form.html.erb (100.3ms)
+Rendered compras/new.html.erb within layouts/application (104.5ms)
+Completed 200 OK in 1230ms (Views: 109.5ms | ActiveRecord: 0.0ms)
 
 
-Started POST "/enderecos/7" for 143.106.16.163 at Fri Jun 17 20:10:55 -0300 2011
-  Processing by EnderecosController#destroy as HTML
-  Parameters: {"authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "id"=>"7"}
-  [1m[36mEndereco Load (0.2ms)[0m  [1mSELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 7 LIMIT 1[0m
-  [1m[35mAREL (0.3ms)[0m  DELETE FROM "enderecos" WHERE "enderecos"."id" = 7
-Redirected to http://localhost:3000/enderecos
-Completed 302 Found in 107ms
+Started GET "/compras/new?produto=3" for 143.106.16.163 at Fri Jun 17 20:52:46 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"3"}
+Rendered compras/endereco_nao_atendido.html.haml within layouts/application (3.6ms)
+Completed   in 1251ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/compras_controller.rb:61:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (13.9ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.3ms)
 
 
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:10:56 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[36mEndereco Load (0.7ms)[0m  [1mSELECT "enderecos".* FROM "enderecos"[0m
-Rendered enderecos/index.html.erb within layouts/application (20.9ms)
-Completed 200 OK in 33ms (Views: 25.8ms | ActiveRecord: 0.9ms)
+Started GET "/compras/new?produto=3" for 143.106.16.163 at Fri Jun 17 20:52:56 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"3"}
+Rendered compras/endereco_nao_atendido.html.haml within layouts/application (3.4ms)
+Completed   in 1242ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/compras_controller.rb:61:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (13.7ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
 
 
-Started POST "/enderecos/8" for 143.106.16.163 at Fri Jun 17 20:10:58 -0300 2011
-  Processing by EnderecosController#destroy as HTML
-  Parameters: {"authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "id"=>"8"}
-  [1m[35mEndereco Load (0.2ms)[0m  SELECT "enderecos".* FROM "enderecos" WHERE "enderecos"."id" = 8 LIMIT 1
-  [1m[36mAREL (0.3ms)[0m  [1mDELETE FROM "enderecos" WHERE "enderecos"."id" = 8[0m
-Redirected to http://localhost:3000/enderecos
-Completed 302 Found in 104ms
+Started GET "/compras/new?produto=3" for 143.106.16.163 at Fri Jun 17 20:53:23 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"3"}
+Rendered compras/endereco_nao_atendido.html.haml within layouts/application (3.4ms)
+Completed   in 1335ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/compras_controller.rb:61:in `new'
+
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (16.5ms)
+Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.4ms)
 
 
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:10:58 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[35mEndereco Load (0.7ms)[0m  SELECT "enderecos".* FROM "enderecos"
-Rendered enderecos/index.html.erb within layouts/application (19.9ms)
-Completed 200 OK in 32ms (Views: 24.9ms | ActiveRecord: 0.7ms)
+Started GET "/compras/new?produto=3" for 143.106.16.163 at Fri Jun 17 20:53:38 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"3"}
+Rendered compras/endereco_nao_atendido.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 678ms (Views: 10.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/enderecos/new" for 143.106.16.163 at Fri Jun 17 20:11:01 -0300 2011
-  Processing by EnderecosController#new as HTML
-Rendered enderecos/_form.html.erb (12.9ms)
-Rendered enderecos/new.html.erb within layouts/application (17.8ms)
-Completed 200 OK in 30ms (Views: 22.8ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:11:09 -0300 2011
-  Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083461"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "enderecos" ("updated_at", "created_at", "cep", "complemento") VALUES ('2011-06-17 23:11:09.799673', '2011-06-17 23:11:09.799673', '13083461', '123')[0m
-Rendered enderecos/_form.html.erb (6.6ms)
-Rendered enderecos/new.html.erb within layouts/application (12.2ms)
-Completed 200 OK in 768ms (Views: 17.4ms | ActiveRecord: 0.3ms)
-
-
-Started GET "/enderecos" for 143.106.16.163 at Fri Jun 17 20:11:24 -0300 2011
-  Processing by EnderecosController#index as HTML
-  [1m[35mEndereco Load (0.9ms)[0m  SELECT "enderecos".* FROM "enderecos"
-Rendered enderecos/index.html.erb within layouts/application (22.3ms)
-Completed 200 OK in 36ms (Views: 27.8ms | ActiveRecord: 0.9ms)
-
-
-Started GET "/enderecos/new" for 143.106.16.163 at Fri Jun 17 20:11:29 -0300 2011
-  Processing by EnderecosController#new as HTML
-Rendered enderecos/_form.html.erb (84.0ms)
-Rendered enderecos/new.html.erb within layouts/application (89.4ms)
-Completed 200 OK in 101ms (Views: 94.6ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:11:37 -0300 2011
-  Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083462"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-Rendered enderecos/create.html.erb within layouts/application (1.1ms)
-Completed   in 252ms
-
-ActionView::Template::Error (You have a nil object when you didn't expect it!
-You might have expected an instance of ActiveRecord::Base.
-The error occurred while evaluating nil.[]):
-    2: 
-    3: <p>
-    4:   <b>Estado:</b>
-    5:   <%= @resp_endereco[:estado] %>
-    6: </p>
-    7: 
-    8: <p>
-  app/views/enderecos/create.html.erb:5:in `_app_views_enderecos_create_html_erb__269123837__621971038_0'
-
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.6ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.8ms)
-
-
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:12:25 -0300 2011
-  Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083463"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-Rendered enderecos/create.html.erb within layouts/application (1.1ms)
-Completed   in 28987ms
-
-ActionView::Template::Error (You have a nil object when you didn't expect it!
-You might have expected an instance of ActiveRecord::Base.
-The error occurred while evaluating nil.[]):
-    2: 
-    3: <p>
-    4:   <b>Estado:</b>
-    5:   <%= @resp_endereco[:estado] %>
-    6: </p>
-    7: 
-    8: <p>
-  app/views/enderecos/create.html.erb:5:in `_app_views_enderecos_create_html_erb__269123837__621869708_0'
-
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.4ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.9ms)
-
-
-Started POST "/enderecos" for 143.106.16.163 at Fri Jun 17 20:13:06 -0300 2011
-  Processing by EnderecosController#create as HTML
-  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083464"}, "commit"=>"Create Endereco", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓"}
-  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "enderecos" ("updated_at", "complemento", "cep", "created_at") VALUES ('2011-06-17 23:13:07.082712', '123', '13083464', '2011-06-17 23:13:07.082712')[0m
-Rendered enderecos/create.html.erb within layouts/application (1.3ms)
-Completed   in 616ms
-
-ActionView::Template::Error (You have a nil object when you didn't expect it!
-You might have expected an instance of ActiveRecord::Base.
-The error occurred while evaluating nil.[]):
-    2: 
-    3: <p>
-    4:   <b>Estado:</b>
-    5:   <%= @resp_endereco[:estado] %>
-    6: </p>
-    7: 
-    8: <p>
-  app/views/enderecos/create.html.erb:5:in `_app_views_enderecos_create_html_erb__269123837__621916328_0'
-  app/controllers/enderecos_controller.rb:75:in `create'
-
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.9ms)
-Rendered /home/alex/.rvm/gems/ruby-1.8.7-p334/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.0ms)
-
-
-Started GET "/welcome" for 127.0.0.1 at Fri Jun 17 20:31:31 -0300 2011
+Started GET "/welcome" for 127.0.0.1 at Fri Jun 17 21:40:37 -0300 2011
   Processing by WelcomeController#index as HTML
-Rendered welcome/index.html.haml within layouts/application (8.8ms)
-Completed 200 OK in 24ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+Rendered welcome/index.html.haml within layouts/application (5.1ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
 
 
-Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 17 20:31:39 -0300 2011
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 17 21:41:47 -0300 2011
   Processing by WelcomeController#login as HTML
   Parameters: {"commit"=>"Save changes", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "login"=>"eder@email.com", "senha"=>"eder"}
 Redirected to http://localhost:3000/produtos
-Completed 302 Found in 2005ms
+Completed 302 Found in 1989ms
 
 
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 20:31:41 -0300 2011
+Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 21:41:49 -0300 2011
   Processing by ProdutosController#index as HTML
-Rendered produtos/index.html.erb within layouts/application (4.6ms)
-Completed 200 OK in 4610ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+Rendered produtos/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 1632ms (Views: 11.7ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 20:31:51 -0300 2011
-  Processing by ProdutosController#index as HTML
-Rendered produtos/index.html.erb within layouts/application (3.9ms)
-Completed 200 OK in 1519ms (Views: 8.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 20:32:05 -0300 2011
-  Processing by ProdutosController#index as HTML
-Rendered produtos/index.html.erb within layouts/application (4.7ms)
-Completed 200 OK in 1576ms (Views: 12.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 20:32:31 -0300 2011
-  Processing by ProdutosController#index as HTML
-Rendered produtos/index.html.erb within layouts/application (4.6ms)
-Completed 200 OK in 1547ms (Views: 9.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 20:32:35 -0300 2011
-  Processing by ProdutosController#index as HTML
-Rendered produtos/index.html.erb within layouts/application (3.7ms)
-Completed 200 OK in 1530ms (Views: 8.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 20:34:25 -0300 2011
-  Processing by ProdutosController#index as HTML
-Rendered produtos/index.html.erb within layouts/application (4.3ms)
-Completed 200 OK in 1597ms (Views: 11.8ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 17 20:34:36 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"1"}
-Rendered produtos/show.html.erb within layouts/application (4.2ms)
-Completed 200 OK in 12908ms (Views: 9.4ms | ActiveRecord: 0.0ms)
-  [1m[36mProduto Load (0.4ms)[0m  [1mSELECT "produtos".* FROM "produtos"[0m
-
-
-Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 17 20:37:07 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"1"}
-Rendered produtos/show.html.erb within layouts/application (8.2ms)
-Completed 200 OK in 536ms (Views: 21.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 20:37:10 -0300 2011
-  Processing by ProdutosController#index as HTML
-Rendered produtos/index.html.erb within layouts/application (4.9ms)
-Completed 200 OK in 4556ms (Views: 12.6ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos/2" for 127.0.0.1 at Fri Jun 17 20:37:23 -0300 2011
+Started GET "/produtos/2" for 127.0.0.1 at Fri Jun 17 21:42:43 -0300 2011
   Processing by ProdutosController#show as HTML
   Parameters: {"id"=>"2"}
-Rendered produtos/show.html.erb within layouts/application (4.6ms)
-Completed 200 OK in 591ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+Rendered produtos/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1329ms (Views: 11.0ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/produtos/2" for 127.0.0.1 at Fri Jun 17 20:38:36 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"2"}
-Rendered produtos/show.html.erb within layouts/application (4.2ms)
-Completed 200 OK in 1033ms (Views: 9.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 17 20:38:41 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"1"}
-Rendered produtos/show.html.erb within layouts/application (4.6ms)
-Completed 200 OK in 1171ms (Views: 10.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos/3" for 127.0.0.1 at Fri Jun 17 20:38:44 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"3"}
-Rendered produtos/show.html.erb within layouts/application (4.0ms)
-Completed 200 OK in 1030ms (Views: 9.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/compras/new?produto=3" for 127.0.0.1 at Fri Jun 17 20:38:49 -0300 2011
+Started GET "/compras/new?produto=2" for 127.0.0.1 at Fri Jun 17 21:42:57 -0300 2011
   Processing by ComprasController#new as HTML
-  Parameters: {"produto"=>"3"}
-Rendered compras/_form.html.erb (23.7ms)
-Rendered compras/new.html.erb within layouts/application (28.7ms)
-Completed 200 OK in 808ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+  Parameters: {"produto"=>"2"}
+Rendered compras/_form.html.erb (19.9ms)
+Rendered compras/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 1366ms (Views: 28.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/produtos/3" for 127.0.0.1 at Fri Jun 17 20:39:42 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"3"}
-Rendered produtos/show.html.erb within layouts/application (4.3ms)
-Completed 200 OK in 1834ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+Started POST "/compras" for 127.0.0.1 at Fri Jun 17 21:44:16 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"423.1", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"111", "nome_titular"=>"111", "data_validade"=>"111", "bandeira_id"=>"1", "numero_cartao"=>"5555555555555551"}}
+Rendered compras/sem_credito.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 5433ms (Views: 8.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/compras/new?produto=3" for 127.0.0.1 at Fri Jun 17 20:39:44 -0300 2011
-  Processing by ComprasController#new as HTML
-  Parameters: {"produto"=>"3"}
-Rendered compras/produto_indisponivel.html.haml within layouts/application (4.2ms)
-Completed 200 OK in 605ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+Started POST "/compras" for 127.0.0.1 at Fri Jun 17 21:44:42 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"423.1", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
+Rendered compras/sem_credito.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 1168ms (Views: 10.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/produtos/3" for 127.0.0.1 at Fri Jun 17 20:40:14 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"3"}
-Rendered produtos/show.html.erb within layouts/application (3.9ms)
-Completed 200 OK in 1057ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+Started POST "/compras" for 127.0.0.1 at Fri Jun 17 21:45:06 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"423.1", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
+Rendered compras/sem_credito.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 1124ms (Views: 9.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 17 20:40:18 -0300 2011
+Started GET "/welcome" for 143.106.16.163 at Fri Jun 17 21:45:49 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (5.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 143.106.16.163 at Fri Jun 17 21:45:54 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "login"=>"eder@email.com", "senha"=>"eder"}
+Redirected to http://localhost:3000/produtos
+Completed 302 Found in 1566ms
+
+
+Started GET "/produtos" for 143.106.16.163 at Fri Jun 17 21:45:56 -0300 2011
+  Processing by ProdutosController#index as HTML
+Rendered produtos/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1714ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/1" for 143.106.16.163 at Fri Jun 17 21:46:01 -0300 2011
   Processing by ProdutosController#show as HTML
   Parameters: {"id"=>"1"}
-Rendered produtos/show.html.erb within layouts/application (3.9ms)
-Completed 200 OK in 1064ms (Views: 9.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos/2" for 127.0.0.1 at Fri Jun 17 20:40:21 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"2"}
-Rendered produtos/show.html.erb within layouts/application (3.9ms)
-Completed 200 OK in 1076ms (Views: 9.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos/2" for 127.0.0.1 at Fri Jun 17 20:41:58 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"2"}
-Rendered produtos/show.html.erb within layouts/application (4.9ms)
-Completed 200 OK in 1243ms (Views: 80.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/produtos/2" for 127.0.0.1 at Fri Jun 17 20:42:02 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"2"}
 Rendered produtos/show.html.erb within layouts/application (4.1ms)
-Completed 200 OK in 1802ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+Completed 200 OK in 1052ms (Views: 11.5ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/produtos/1" for 127.0.0.1 at Fri Jun 17 20:42:05 -0300 2011
-  Processing by ProdutosController#show as HTML
-  Parameters: {"id"=>"1"}
-Rendered produtos/show.html.erb within layouts/application (3.9ms)
-Completed 200 OK in 1068ms (Views: 14.3ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/compras/new?produto=1" for 127.0.0.1 at Fri Jun 17 20:42:08 -0300 2011
+Started GET "/compras/new?produto=1" for 143.106.16.163 at Fri Jun 17 21:46:10 -0300 2011
   Processing by ComprasController#new as HTML
   Parameters: {"produto"=>"1"}
-Rendered compras/_form.html.erb (21.2ms)
-Rendered compras/new.html.erb within layouts/application (25.9ms)
-Completed 200 OK in 774ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+Rendered compras/_form.html.erb (17.1ms)
+Rendered compras/new.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 1271ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 17 21:46:22 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"423.1", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"222", "nome_titular"=>"Djionattan Uelinto Dion Amaral", "data_validade"=>"012014", "bandeira_id"=>"02", "numero_cartao"=>"2222222222222222"}}
+Rendered compras/sem_credito.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 1066ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compras" for 143.106.16.163 at Fri Jun 17 21:46:23 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"954.65", "authenticity_token"=>"4NZ6F4KxfF3l4WLEGWz58qs6yL3GH2lrJ6+6fLWAjgI=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
+Rendered compras/sem_credito.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 1182ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/2" for 127.0.0.1 at Fri Jun 17 21:46:32 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"2"}
+Rendered produtos/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1167ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compras/new?produto=2" for 127.0.0.1 at Fri Jun 17 21:47:03 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"2"}
+Rendered compras/_form.html.erb (96.9ms)
+Rendered compras/new.html.erb within layouts/application (101.3ms)
+Completed 200 OK in 1277ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 17 21:47:14 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"423.1", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
+Rendered compras/sem_credito.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 1030ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/compras" for 127.0.0.1 at Fri Jun 17 21:48:21 -0300 2011
+  Processing by ComprasController#create as HTML
+  Parameters: {"commit"=>"Create Compra", "preco_produto"=>"423.1", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "compra"=>{"codigo_seguranca"=>"552", "nome_titular"=>"Bryanne Ethelvina Lima", "data_validade"=>"012014", "bandeira_id"=>"3", "numero_cartao"=>"5555555555555552"}}
+Redirected to http://localhost:3000/enderecos/new
+Completed 302 Found in 61ms
+
+
+Started GET "/enderecos/new" for 127.0.0.1 at Fri Jun 17 21:48:22 -0300 2011
+  Processing by EnderecosController#new as HTML
+Rendered enderecos/_form.html.erb (11.2ms)
+Rendered enderecos/new.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 102ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/enderecos" for 127.0.0.1 at Fri Jun 17 21:48:33 -0300 2011
+  Processing by EnderecosController#create as HTML
+  Parameters: {"endereco"=>{"complemento"=>"123", "cep"=>"13083852"}, "commit"=>"Create Endereco", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.5ms)[0m  INSERT INTO "enderecos" ("created_at", "complemento", "cep", "updated_at") VALUES ('2011-06-18 00:48:33.490214', '123', '13083852', '2011-06-18 00:48:33.490214')
+Rendered enderecos/create.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 677ms (Views: 7.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri Jun 17 21:49:07 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 17 21:49:24 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "login"=>"usuario@email.com", "senha"=>"senha123"}
+Redirected to http://localhost:3000/produtos
+Completed 302 Found in 1770ms
+
+
+Started GET "/produtos" for 127.0.0.1 at Fri Jun 17 21:49:26 -0300 2011
+  Processing by ProdutosController#index as HTML
+Rendered produtos/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1605ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/3" for 127.0.0.1 at Fri Jun 17 21:49:31 -0300 2011
+  Processing by ProdutosController#show as HTML
+  Parameters: {"id"=>"3"}
+Rendered produtos/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1049ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/compras/new?produto=3" for 127.0.0.1 at Fri Jun 17 21:49:34 -0300 2011
+  Processing by ComprasController#new as HTML
+  Parameters: {"produto"=>"3"}
+Rendered compras/endereco_nao_atendido.html.haml within layouts/application (3.6ms)
+Completed 200 OK in 748ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 127.0.0.1 at Fri Jun 17 21:50:01 -0300 2011
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/application (5.2ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login_welcome" for 127.0.0.1 at Fri Jun 17 21:50:06 -0300 2011
+  Processing by WelcomeController#login as HTML
+  Parameters: {"commit"=>"Save changes", "authenticity_token"=>"SdQNuOzWk++BpbsR1rT2LwhCZKuiuHC4pesEg0NCpPg=", "utf8"=>"✓", "login"=>"eder@email.com", "senha"=>"akjdassd"}
+Rendered welcome/login_invalido.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 724ms (Views: 26.0ms | ActiveRecord: 0.0ms)
