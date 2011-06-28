@@ -34,8 +34,11 @@ class ComprasController < ApplicationController
   def verifica_cartao(value, card_number, security_code, owner_name, expiration_date, operator_id)
     client = HTTPClient.new
     response = client.get("http://localhost:8085/axis2/services/CreditCardService/CreditCardManager?value=#{value}&cardNumber=#{card_number}&securityCode=#{security_code}&ownerName=#{owner_name}&expirationDate=#{expiration_date}&operatorID=#{operator_id}".gsub(" ", "%20"))
-    response.body.gsub(/.*<ns1:return>/, "").gsub(/<.*/, "").to_i > 0
-    true
+    #response.body.gsub(/.*<ns1:return>/, "").gsub(/<.*/, "").to_i > 0
+    #true
+    reshi = Hash.from_xml(response.body)
+    debugger
+    reshi["CreditCardManagerResponse"]["return"].to_i
   end
   
     
@@ -78,12 +81,25 @@ class ComprasController < ApplicationController
 
     @compra = Compra.new(params[:compra])
      #TODO verificar crédito
-    if  verifica_cartao(preco_produto, @compra.numero_cartao, @compra.codigo_seguranca, @compra.nome_titular, @compra.data_validade, @compra.bandeira_id)  || consulta_credito_cliente(session[:user].cpf) 
+    varr = verifica_cartao(preco_produto, @compra.numero_cartao, @compra.codigo_seguranca, @compra.nome_titular, @compra.data_validade, @compra.bandeira_id)  || consulta_credito_cliente(session[:user].cpf) 
+    if  varr >= 0
       redirect_to new_endereco_path
-    else
+    elsif varr == -1##falta de credito
       render :sem_credito      
+    elsif varr == -2##dados invalidos
+      render :dados_invalidos
+    elsif varr == -3##cartao vencido
+      render :dados_invalidos
+    else##-4 == erro interno
+      render :dados_invalidos
     end
 
+  end
+  
+  def self.clear_cc(grupo)
+    client = HTTPClient.new
+    response = client.get("http://localhost:8085/axis2/services/CreditCardService/CreditCardReset?groupID=#{grupo}")
+    response.body
   end
 
 end
