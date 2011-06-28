@@ -74,6 +74,11 @@ class EnderecosController < ApplicationController
 
     respond_to do |format|
       @resp_endereco = get_endereco(@endereco.cep)
+      if @resp_endereco.blank?
+        format.html do
+          render :endereco_invalido
+        end
+      end
       if @endereco.save
         manda_email
         format.html
