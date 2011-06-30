@@ -37,7 +37,6 @@ class ComprasController < ApplicationController
     #response.body.gsub(/.*<ns1:return>/, "").gsub(/<.*/, "").to_i > 0
     #true
     reshi = Hash.from_xml(response.body)
-    debugger
     reshi["CreditCardManagerResponse"]["return"].to_i
   end
   
