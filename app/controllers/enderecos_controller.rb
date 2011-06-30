@@ -58,7 +58,7 @@ class EnderecosController < ApplicationController
     
     h = SequencedHash.new
     h[:token] = "1"
-    h[:destinatarios] = "abgrilo@gmail.com"
+    h[:destinatarios] = "dnalves3@gmail.com"
     h[:template_id] = "1"
     h[:fields] = "abc,123"
 
