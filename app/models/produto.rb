@@ -8,8 +8,8 @@ class Produto < ActiveRecord::Base
 
   def self.soa_find_all
     products = []
-    #reshi = product_search(@@portal_base_id)
-    reshi = [1, 2, 3]
+    reshi = product_search(@@portal_base_id)
+    #reshi = [1, 2, 3]
     reshi.each_with_index do |id,index|
       if(index > @@products_search_limit)
         break
@@ -55,7 +55,7 @@ class Produto < ActiveRecord::Base
       client = HTTPClient.new
       # ssh -L 22990:143.106.73.138:8069 ra082704@ssh.students.ic.unicamp.br #
       # response = client.get(' http://localhost:22990/servlets/servlet/debitoonline?conta_do_portal=123456&agencia_portal=123&conta_cliente=123&agencia_do_cliente=&senha_do_cliente=&valor_da_compra=250,35&id_da_compra=112233) #
-      response = client.get(@@produto_base_url+"search/"+portal_id.to_s+"/")
+      response = client.get(@@produto_base_url+"list/"+portal_id.to_s+"/")
       resposta = ActiveSupport::JSON::decode response.body
       (resposta.to_hash)["result"]
     end
