@@ -58,7 +58,7 @@ class EnderecosController < ApplicationController
     
     h = SequencedHash.new
     h[:token] = "1"
-    h[:destinatarios] = "abgrilo@gmail.com"
+    h[:destinatarios] = "dnalves3@gmail.com"
     h[:template_id] = "1"
     h[:fields] = "abc,123"
 
@@ -74,6 +74,11 @@ class EnderecosController < ApplicationController
 
     respond_to do |format|
       @resp_endereco = get_endereco(@endereco.cep)
+      if @resp_endereco.blank?
+        format.html do
+          render :endereco_invalido
+        end
+      end
       if @endereco.save
         manda_email
         format.html
